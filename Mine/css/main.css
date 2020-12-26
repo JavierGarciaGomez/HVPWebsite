@@ -368,16 +368,16 @@ section {
   position: relative;
   font-family: 'Fredoka One', cursive;
   color: white;
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: center;
 }
 
 .main-header h2 {
-  bottom: 1rem;
+
   display: block;
   font-family: var(--fontPTSans);
   max-width: 70%;
-  margin: 5em 1em auto auto;
+  margin: 8em 1em auto auto;
   position: relative;
   font-weight: 400;
   color: white;
@@ -398,13 +398,14 @@ section {
 
   .main-header h1 {
     display: block;
-    max-width: 75%;
+    max-width: 85%;
     margin: 0 auto;
     font-size: 5rem;
   }
 
   .main-header h2 {
-
+    bottom: 6rem;
+    margin: 5em 1em auto auto;
     font-size: 3rem;
   }
 }
@@ -787,15 +788,48 @@ section {
 
 .team-content {
   display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+
   justify-content: space-between;
   align-items: center;
 }
 
 .team-content div {
-  flex: 0 0 calc(50% - 1rem);
+  flex: 0 0 calc(80% - 1rem);
+  text-align: center;
+  margin: 0 auto;
 }
 
+@media (min-width: 768px) {
+  .team-content div {
+    flex: 0 0 calc(50% - 1rem);
+  }
+}
 
+/* ************************************************************************************************ */
+/* COMPANY */
+/* ************************************************************************************************ */
+
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+
+  margin: 0 auto;
+}
+
+.video {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.company-page p {
+  padding-top: 2rem;
+  color: var(--secondaryColor);
+  width: 75%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
 
 
 
