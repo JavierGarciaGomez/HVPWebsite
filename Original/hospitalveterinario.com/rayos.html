@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Hospital Veterinaria</title>
+
+<link rel="stylesheet" href="fuente/caviarnegrita.css" type="text/css" charset="utf-8" />  
+	<link rel="stylesheet" href="fuente/caviarnormal.css" type="text/css" charset="utf-8" />   
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="jquery.backgroundPosition.js"></script>    
+
+<script type="text/javascript">
+$(function(){
+	$('#nav>li').hover(
+		function(){
+		$('.submenu',this).stop(true,true).slideDown('fast');
+		},
+		function(){
+		$('.submenu',this).slideUp('fast');
+		}
+	);
+ 
+	$('.submenu li a').css( {backgroundPosition: "0px 0px"} ).hover(
+		function(){
+		$(this).stop().animate({backgroundPosition: "(0px -99px)"}, 250);
+		},
+		function(){
+		$(this).stop().animate({backgroundPosition: "(0px 0px)"}, 250);
+		}
+	);			
+});
+</script>
+
+</head>
+
+<body>
+
+
+
+
+<div class="full" id="todo" align="center">
+  <div class="contenedor" id="pagina">
+	
+	<div class="encabezado"> 
+		<div class="banner" >
+			<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="674" height="308" id="hospital" align="middle">
+	<param name="allowScriptAccess" value="sameDomain" />
+	<param name="allowFullScreen" value="false" />	<param name="wmode" value="opaque" />
+	<param name="movie" value="hospital.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#fdfdfd" />	<embed src="hospital.swf" quality="high" bgcolor="#fdfdfd" width="674" height="308" name="hospital" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer_es" wmode="opaque"    />
+	</object>
+		</div>
+		
+		
+		<img src="images/doctor.jpg" style=" position:absolute; left:700px; top:110px;"/>
+		<img src="images/globo.png"  style=" position:absolute; left:700px; top:10px;"/>
+		
+		<div  id="uno">
+	  <div style="position:absolute; width: 185px; height:60px; background-image: url(images/logovete.jpg);"></div>
+		<div style="position:absolute; font-size:18px; text-align:center; width: 502px; height:24px; left: 186px; top: 6px; margin-top:15px;"><strong>El especialista en cuest&oacute;on, siempre es la mejor opci&oacute;n</strong></div>
+	</div>
+		<div class="franja" id="dos"></div>
+		
+	</div>
+	
+				<div class="mainmenu">
+			<div class="fondomenu">
+			
+			<ul id="nav">
+	<li>
+	  <table><tr><td><a href="index.html" ><img src="images/pata.jpg" width="24" height="22" /></a></td>
+	<td><a href="index.html" >Inicio</a></td></tr></table>
+	</li>
+	<li><table>
+	  <tr><td><a href="nosotros.html" ><img src="images/inicio.jpg" width="24" height="22" /></a></td>
+	<td><a href="nosotros.html" >Quienes Somos</a></td>
+	  </tr></table>
+	</li>
+	<li><table><tr><td><a href="#"><img src="images/somos.jpg" width="24" height="22" /></a></td>
+	<td><a href="#">Nuestros Servicios</a></td></tr></table>
+		<ul class="submenu">
+			<li><a href="consultas.html" >Consultas</a></li>
+			<li><a href="cirugias.html" >Cirug&iacute;as</a></li>
+			<li><a href="rayos.html" >Rayos X, y Laboratorio</a></li>
+			<li><a href="insemi.html" >Inseminaci&oacute;n Artificial</a></li>
+			<li><a href="pedigree.html" >Registro de Camadas(FCM)</a></li>
+			<li><a href="pension.html" >Pensi&oacute;n y Estetica</a></li>
+			<li><a href="farmacia.html" >Farmacia y Asesoria</a></li>
+			<li><a href="transporte.html" >Transporte</a></li>
+		</ul>
+	</li>
+	<li><table><tr><td><a href="ofertas.html" ><img src="images/servicios.jpg" width="24" height="22" /></a></td>
+	<td><a href="ofertas.html" >Ofertas y Planes</a></td>
+	</tr></table>
+	</li>
+	
+	<li><table><tr><td><a href="adiestramiento.html" ><img src="images/ofertas.jpg" width="24" height="22" /></a></td>
+	<td><a href="adiestramiento.html" >Adiestramiento</a></td>
+	</tr></table>
+	</li>
+	
+	<li><table><tr><td><a href="cirugiasvideos.html" ><img src="images/adiestramiento.jpg" width="24" height="22" border="0" /></a></td>
+	<td><a href="cirugiasvideos.html" >Videos y Archivos</a></td>
+	</tr></table>
+	</li>
+	<li><table><tr><td><img src="images/cirugias.jpg" width="24" height="22" /></td>
+	<td><a href="tienda/catalog/index.php" target="_blank" >Tienda Online</a></td>
+	</tr></table>
+	</li>
+	
+	<li><table><tr><td><img src="images/tienda.jpg" width="24" height="22" /></td>
+	<td><a href="contacto.html" >Contacto</a></td>
+	</tr></table>
+	</li>
+
+</ul>
+			
+			
+			</div>
+			
+			</div>
+	
+	
+	
+	
+	
+	<div class="contenido"> 
+		
+		
+		
+	  <div class="franja" id="treintauno"></div>
+	  <div class="franja" id="treinta"></div>
+	  
+	  <div  class="titulo" id="tit_rayos">
+	  <p style="font-size:30px">Rayos X</p>	</div>
+<div class="text"  id="txt_rayos">
+				Somos una cl&iacute;nica de referencia para la toma de Rayos X. Muchos colegas solicitan nuestros servicios como apoyo a sus cl&iacute;nicas veterinarias. Esta es una prueba de gabinete muy &uacute;til que en cuesti&oacute;n de minutos contamos con el revelado y la placa seca, lista para ayudar en el diagn&oacute;stico. Podemos ver fracturas, gestaciones avanzadas, objetos en los intestinos que su mascota haya ingerido, c&aacute;lculos en los ri&ntilde;ones o la vejiga, as&iacute; como infinidad de patolog&iacute;as que nos ayudan a dar diagn&oacute;sticos certeros.		</div>
+      <div class="franja" id="treinttreis"></div>
+		
+		
+		
+	  <div class="franja" id="treintacuatro"></div>
+	  <div class="franja" id="treintcinco"></div>
+		
+	
+	  <div class="franja" id="treintaseis"></div>
+		<div class="franja" id="treintasiete"></div>
+			
+		
+<div class="text"  id="txt_rayos2">
+					
+			Muchas pruebas r&aacute;pidas son elaboradas en nuestras instalaciones y los resultados los tenemos en minutos, para as&iacute; poder tomar decisiones correctas en la atenci&oacute;n de nuestros pacientes; Cuando se requieren pruebas m&aacute;s laboriosas contamos con el apoyo de 2 grandes empresas: 1.- Laboratorios Biom&eacute;dicos que cuentan con varias sucursales distribuidas por la ciudad, es uno de los mejores laboratorios en M&eacute;rida y 2.- Carpemor con sede en el D.F. Laboratorio de Referencia Internacional para Laboratorios y corren cualquier tipo de prueba que no se realice incluso en el pa&iacute;s. Como Ud. Podr&aacute; apreciar hemos procurado las mejores relaciones para brindarle la mejor opci&oacute;n en pruebas de laboratorio. Laboratorios IDEXX est&aacute;n especializados en veternaria y nos proporcionan mchos kits de diagnóstico r&aacute;pido espec&iacute;ficos para muchas de las enfermedades que padecen.
+	  </div>
+	
+</div>
+<div class="franja" id="div32"></div>
+<div class="franja" id="div33"></div>
+<div class="franja" id="div34"></div>
+<div class="franja" id="div35"></div>
+<div class="franja" id="div36"></div>
+<div  class="titulo" id="tit_rayos2">
+<img src="images/img_rayos2.jpg"  style="position:absolute; top:-58px; left: -562px;"/>
+<img src="images/img_rayos.jpg"   style="position:absolute; left:-51px; top: -347px;"/>
+	<p style="font-size:30px">Laboratorio</p>		</div>
+<div class="text"  id="divtext2">Muchas pruebas r&aacute;pidas son elaboradas en nuestras instalaciones y los resultados los tenemos en minutos, para as&iacute; poder tomar decisiones correctas en la atenci&oacute;n de nuestros pacientes; Cuando se requieren pruebas m&aacute;s laboriosas contamos con el apoyo de 2 grandes empresas: 1.- Laboratorios Biom&eacute;dicos que cuentan con varias sucursales distribuidas por la ciudad, es uno de los mejores laboratorios en M&eacute;rida y 2.- Carpemor con sede en el D.F. Laboratorio de Referencia Internacional para Laboratorios y corren cualquier tipo de prueba que no se realice incluso en el pa&iacute;s. Como Ud. Podr&aacute; apreciar hemos procurado las mejores relaciones para brindarle la mejor opci&oacute;n en pruebas de laboratorio. Laboratorios IDEXX est&aacute;n especializados en veternaria y nos proporcionan mchos kits de diagn&oacute;stico r&aacute;pido espec&iacute;ficos para muchas de las enfermedades que padecen.</div>
+ <div class="m" style="background-color:#dae1f1; height:80px; float:left;position:absolute; bottom:-420px; font-size:14px;">
+    	<ul style="float:left; margin-top:15px;">
+        	<li style="list-style:none;"><a href="index.html" >Inicio</a></li>
+            <li><a href="nosotros.html" >Quienes somos</a></li>
+            <li><a href="ofertas.html" >Ofertas y Planes</a></li>
+            <li><a href="adiestramiento.html" >Adiestramiento</a></li>
+            <li><a href="cirugias.html" >Cirug&iacute;as</a></li>
+            <li><a href="tienda/catalog/index.php" target="_blank">Tienda en linea</a></li>
+            <li><a href="contacto.html" >Contacto</a></li>
+            <li><a href="consultas.html" >Consultas</a></li>
+			<li><a href="cirugiasvideos.html" >Videos y Archivos</a></li>
+			<div style="margin-left:70px;"><li><a href="rayos.html" >Rayos X, y Laboratorio</a></li>
+			<li><a href="insemi.html" >Inseminaci&oacute;n Artificial</a></li>
+			<li><a href="pedigree.html" >Pedigr&iacute;</a></li>
+			<li><a href="pension.html" >Pensi&oacute;n y Estetica</a></li>
+			<li><a href="farmacia.html" >Farmacia y Asesoria</a></li>
+			<li><a href="transporte.html" >Transporte</a></li></div>
+        </ul>
+    </div>
+    <a href="https://www.youtube.com/HospitalVetPen"  target="_blank" style="position:absolute; top:1140px; left:807px "  ><img src="images/you1.png" style="width:40px"/> </a>
+		<a href="https://twitter.com/#!/HospitalVetPen"  target="_blank" style="position:absolute; top:1140px; left:761px"  ><img src="images/tui1.png" style="width:40px"/> </a>
+		<a href="https://www.facebook.com/HospitalVeterinarioPeninsular" target="_blank"  style="position:absolute; top:1140px; left:715px"  ><img src="images/face1.png" style="width:40px"/> </a>
+</div>
+</body>
+</html>

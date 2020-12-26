@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Hospital Veterinaria</title>
+<link rel="stylesheet" href="fuente/caviarnegrita.css" type="text/css" charset="utf-8" />  
+	<link rel="stylesheet" href="fuente/caviarnormal.css" type="text/css" charset="utf-8" />   
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="jquery.backgroundPosition.js"></script>    
+
+<script type="text/javascript">
+$(function(){
+	$('#nav>li').hover(
+		function(){
+		$('.submenu',this).stop(true,true).slideDown('fast');
+		},
+		function(){
+		$('.submenu',this).slideUp('fast');
+		}
+	);
+ 
+	$('.submenu li a').css( {backgroundPosition: "0px 0px"} ).hover(
+		function(){
+		$(this).stop().animate({backgroundPosition: "(0px -99px)"}, 250);
+		},
+		function(){
+		$(this).stop().animate({backgroundPosition: "(0px 0px)"}, 250);
+		}
+	);			
+});
+</script>
+
+</head>
+
+<body>
+
+
+
+
+<div class="full" id="todo" align="center">
+  <div class="contenedor" id="pagina">
+	<img src="images/dog.png" alt="" width="350" height="292" style="position:absolute; left: 603px; top: 680px; width: 322px; height: 271px;" />
+<div class="encabezado"> 
+		<div class="banner" >
+			<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="674" height="308" id="hospital" align="middle">
+	<param name="allowScriptAccess" value="sameDomain" />
+	<param name="allowFullScreen" value="false" />	<param name="wmode" value="opaque" />
+	<param name="movie" value="hospital.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#fdfdfd" />	<embed src="hospital.swf" quality="high" bgcolor="#fdfdfd" width="674" height="308" name="hospital" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer_es" wmode="opaque"    />
+	</object>
+		</div>
+		
+		
+		<img src="images/doctor.jpg" style=" position:absolute; left:700px; top:110px;"/>
+		<img src="images/globo.png"  style=" position:absolute; left:700px; top:10px;"/>
+		
+		<div  id="uno">
+	  <div style="position:absolute; width: 185px; height:60px; background-image: url(images/logovete.jpg);"></div>
+		<div style="position:absolute; font-size:18px; text-align:center; width: 502px; height:24px; left: 186px; top: 6px; margin-top:15px;"><strong>El especialista en cuestion, es siempre tu mejor opción</strong></div>
+	</div>
+		<div class="franja" id="dos"></div>
+		
+	</div>
+	
+				<div class="mainmenu">
+			<div class="fondomenu">
+			
+			<ul id="nav">
+	<li>
+	  <table><tr><td><a href="index.html"><img src="images/pata.jpg" width="24" height="22" /></a></td>
+	<td><a href="index.html">Inicio</a></td></tr></table>
+	</li>
+	<li><table>
+	  <tr><td><a href="nosotros.html"><img src="images/inicio.jpg" width="24" height="22" /></a></td>
+	<td><a href="nosotros.html">Quienes Somos</a></td>
+	  </tr></table>
+	</li>
+	<li><table><tr><td><a href="#"><img src="images/somos.jpg" width="24" height="22" /></a></td>
+	<td><a href="#">Nuestros Servicios</a></td></tr></table>
+		<ul class="submenu">
+			<li><a href="consultas.html">Consultas</a></li>
+			<li><a href="cirugias.html">Cirugias</a></li>
+			<li><a href="rayos.html">Rayos X, y Laboratorio</a></li>
+			<li><a href="insemi.html">Inseminaci&oacute;n Artificial</a></li>
+			<li><a href="pedigree.html">Pedigree</a></li>
+			<li><a href="pension.html">Pensi&oacute;n y Estetica</a></li>
+			<li><a href="farmacia.html">Farmacia y Asesoria</a></li>
+			<li><a href="transporte.html">Transporte</a></li>
+		</ul>
+	</li>
+	<li><table><tr><td><a href="ofertas.html"><img src="images/servicios.jpg" width="24" height="22" /></a></td>
+	<td><a href="ofertas.html">Ofertas y Planes</a></td>
+	</tr></table>
+	</li>
+	
+	<li><table><tr><td><a href="adiestramiento.html"><img src="images/ofertas.jpg" width="24" height="22" /></a></td>
+	<td><a href="adiestramiento.html">Adiestramiento</a></td>
+	</tr></table>
+	</li>
+	
+	<li><table><tr><td><a href="cirugiasvideos.html"><img src="images/adiestramiento.jpg" width="24" height="22" /></a></td>
+	<td><a href="cirugiasvideos.html">Cirugias</a></td>
+	</tr></table>
+	</li>
+	<li><table><tr><td><img src="images/cirugias.jpg" width="24" height="22" /></td>
+	<td><a href="tienda/catalog/index.php">Tienda Online</a></td>
+	</tr></table>
+	</li>
+	
+	<li><table><tr><td><img src="images/tienda.jpg" width="24" height="22" /></td>
+	<td><a href="contacto.html">Contacto</a></td>
+	</tr></table>
+	</li>
+
+</ul>
+			
+			
+			</div>
+			
+			</div>
+	
+	
+	
+	
+	
+	<div class="contenido"> 
+		    
+		    <div  class="franja" id="div30"     ></div>
+			<div  class="franja" id="catorce"     ></div>
+      <div  id="divtext1">INSPECCION DE CAMADAS (F.C.M.)</div>
+		
+		
+		<div class="titulo"  id="tit_farma50">Pedigree</div>
+<div class="texto" id="txt_farma">
+	  <p>Este servicio es previa cita, no es una urgencia, hay que presentar la documentación respectiva para realizar el trámite que corresponda, somos inspectores oficiales de la Federación Canófila Mexicana con sede en el D.F. desde 1996, cuyo teléfono es el 01 555 655 9330 y en internet: www.fcm.org.mx Ud. podrá verificar la legitimidad correspondiente. En el caso de registros iniciales llamados C.P.R. (Certificado de Pureza Racial) es necesario presentar a su mascota a inspección y deberá ser de raza pura para tener derecho a su certificación. Cuando se trate de una camada, ésta deberá estar completa, no es posible registrar cachorros de una misma camada de manera individual. Toda la documentación deberá presentarse y tramitarse de manera completa. Es necesario ser Socio F.C.M. para realizar cualquier trámite; por lo tanto si es la primera vez que inicia un trámite, lo primero que hará, será inscribirse como socio usufructuario a la Federación Canófila Mexicana. Todo esto lo puede hacer con nosotros, llámenos y le asesoraremos con gusto.</p>
+	  <p>&nbsp;</p>
+		  <table width="940" height="79" border="3">
+            <tr>
+              <td width="463"><p>Registrar a su ejemplar tiene como finalidad:</p>
+              <p>&nbsp;</p></td>
+              <td width="457"></td>
+            </tr>
+            <tr >
+              <td ><p><img src="images/punto.png" width="5" height="5" /> Dar valor a las crias<br />
+                  <img src="images/punto.png" alt="" width="5" height="5" /> Conocer quién es el criador, el propietario y la línea de sangre<br />
+                  <img src="images/punto.png" alt="" width="5" height="5" /> Contar con 2 identificaciones permanentes (tatuaje y microchip)<br />
+                  <img src="images/punto.png" alt="" width="5" height="5" /> Permite exhibirlo en todos los eventos que programa la FCM<br />
+                  <img src="images/punto.png" alt="" width="5" height="5" /> Contar con su certificado de registro que funciona como acta de nacimiento y como <img src="images/transparente.png" width="8" height="5" />titulo de propiedad y respaldo legal.<br />
+                  <img src="images/punto.png" alt="" width="5" height="5" /> Conocer los datos del ejemplar como son: títulos, nombre del ejemplar, raza o  <img src="images/transparente.png" alt="" width="8" height="5" /> <img src="images/transparente.png" alt="" width="8" height="5" /> <img src="images/transparente.png" alt="" width="8" height="5" />variedad, color, sexo, fecha y lugar de nacimiento, Num. de registro F.C.M,  <img src="images/transparente.png" alt="" width="8" height="5" /> <img src="images/transparente.png" alt="" width="8" height="5" /> <img src="images/transparente.png" alt="" width="8" height="5" /> <img src="images/transparente.png" alt="" width="8" height="5" /> <img src="images/transparente.png" alt="" width="8" height="5" />observaciones y calificaciones de displasia.</p>
+                <p>&nbsp;</p>
+                <p align="justify">En cuanto a sus antecedentes (padres, abuelos y bisabuelos)   podemos conocer cuáles son los títulos, campeonatos y certificaciones (de conformación, trabajo, asistencia, deporte) con que cuentan. Nombre, No. De registro, color, procedencia nacional o extranjera, etc. Todo esto para poder mantener o mejorar la raza, evitando así la consanguinidad y los defectos y enfermedades  hereditarias. Al analizar toda esta información podemos darnos una idea más clara de lo que tenemos y podemos lograr.</p>
+              </td>
+              <td><div id="div31" class="franja"></div>
+              <div align="center"></div></td>
+            </tr>
+            <tr>
+            <td colspan="2"><div align="justify">
+              <p>&nbsp;</p>
+              <p>En cuanto a registros (acta de nacimiento), existen tres tipos. 1.- El Certificado de Pureza Racial (CPR), se otorga a cualquier ejemplar de raza pura, pero que se desconoce alguno o algunos de sus antecedentes (padres, abuelos o bisabuelos). Es de color café y válido solo en México. Puede ser CPR inicial (sin genealogía conocida) y CPR con antecedentes. 2.- El Certificado Genealógico; se otorga a los ejemplares que ya han completado las 3 generaciones de padres, abuelos y bisabuelos, y que en su registro aparecen ejemplares con uno o varios números de certificado de pureza racial; es de color verde y válido solo en México. 3.- El Certificado de Pedigree Internacional, se otorga a ejemplares con antecedentes bien conocidos, hijos de ejemplares con certificado de pedigree, en cuyo registro únicamente aparecen números FCM. Es de color azul y tiene validez internacional. </p>
+            </div></td>
+            </tr>
+            <tr>
+            <td><img src="images/perritos.jpg" width="402" height="276" /></td><td style="vertical-align:top;"><p>&nbsp;</p>
+              <div align="justify">También brindamos el servicio de gestión de tramites como: Asesoría Pago de cuotas de socio usufructuario o de criadero, transferencias (cambio de propietario), Revalidaciones (reconocimiento de los pedigrees de otros países), Activación del microchip FCM en el sistema LOCA_CAN, Duplicados de registros de pedigree, genealógico o de pureza racial, Registros extemporáneos, Remarcación de tatuajes, Contamos con papelería oficial de la FCM Escaneo y Lectura de microchip´s etc. Cualquier otro trámite que requiera lo podrá realizar con nosotros, previa cita, la idea es minimizar el tiempo de espera. </div></td>
+            </tr>
+          </table>
+		  <p>&nbsp; </p>
+		</div>
+	
+	
+	
+	
+	
+</div>
+</div>
+</body>
+</html>

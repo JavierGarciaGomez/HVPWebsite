@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Hospital Veterinaria</title>
+
+<link rel="stylesheet" href="fuente/caviarnegrita.css" type="text/css" charset="utf-8" />  
+	<link rel="stylesheet" href="fuente/caviarnormal.css" type="text/css" charset="utf-8" />   
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="jquery.backgroundPosition.js"></script>    
+
+<script type="text/javascript">
+$(function(){
+	$('#nav>li').hover(
+		function(){
+		$('.submenu',this).stop(true,true).slideDown('fast');
+		},
+		function(){
+		$('.submenu',this).slideUp('fast');
+		}
+	);
+ 
+	$('.submenu li a').css( {backgroundPosition: "0px 0px"} ).hover(
+		function(){
+		$(this).stop().animate({backgroundPosition: "(0px -99px)"}, 250);
+		},
+		function(){
+		$(this).stop().animate({backgroundPosition: "(0px 0px)"}, 250);
+		}
+	);			
+});
+</script>
+
+</head>
+
+<body>
+
+
+
+
+<div class="full" id="todo" align="center">
+  <div class="contenedor" id="pagina">
+	
+	<div class="encabezado"> 
+		<div class="banner" >
+			<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="674" height="308" id="hospital" align="middle">
+	<param name="allowScriptAccess" value="sameDomain" />
+	<param name="allowFullScreen" value="false" />	<param name="wmode" value="opaque" />
+	<param name="movie" value="hospital.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#fdfdfd" />	<embed src="hospital.swf" quality="high" bgcolor="#fdfdfd" width="674" height="308" name="hospital" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer_es" wmode="opaque"    />
+	</object>
+		</div>
+		
+		
+		<img src="images/doctor.jpg" style=" position:absolute; left:700px; top:110px;"/>
+		<img src="images/globo.png"  style=" position:absolute; left:700px; top:10px;"/>
+		
+		<div  id="uno">
+	  <div style="position:absolute; width: 185px; height:60px; background-image: url(images/logovete.jpg);"></div>
+		<div style="position:absolute; font-size:18px; text-align:center; width: 502px; height:24px; left: 186px; top: 6px; margin-top:15px;"><strong>El especialista en cuesti&oacute;n,  siempre la mejor opci&oacute;n</strong></div>
+	</div>
+		<div class="franja" id="dos"></div>
+		
+	</div>
+	
+				<div class="mainmenu">
+			<div class="fondomenu">
+			
+			<ul id="nav">
+	<li>
+	  <table><tr><td><a href="index.html" target="_blank"><img src="images/pata.jpg" width="24" height="22" /></a></td>
+	<td><a href="index.html" target="_blank">Inicio</a></td></tr></table>
+	</li>
+	<li><table>
+	  <tr><td><a href="nosotros.html" target="_blank"><img src="images/inicio.jpg" width="24" height="22" /></a></td>
+	<td><a href="nosotros.html" target="_blank">Quienes Somos</a></td>
+	  </tr></table>
+	</li>
+	<li><table><tr><td><a href="#"><img src="images/somos.jpg" width="24" height="22" /></a></td>
+	<td><a href="#">Nuestros Servicios</a></td></tr></table>
+		<ul class="submenu">
+			<li><a href="consultas.html" target="_blank">Consultas</a></li>
+			<li><a href="cirugias.html" target="_blank">Videos y articulos</a></li>
+			<li><a href="rayos.html" target="_blank">Rayos X, y Laboratorio</a></li>
+			<li><a href="insemi.html" target="_blank">Inseminaci&oacute;n Artificial</a></li>
+			<li><a href="pedigree.html" target="_blank">Registro de Camadas(FCM)</a></li>
+			<li><a href="pension.html" target="_blank">Pensi&oacute;n y Estetica</a></li>
+			<li><a href="farmacia.html" target="_blank">Farmacia y Asesoria</a></li>
+			<li><a href="transporte.html" target="_blank">Transporte</a></li>
+		</ul>
+	</li>
+	<li><table><tr><td><a href="ofertas.html" target="_blank"><img src="images/servicios.jpg" width="24" height="22" /></a></td>
+	<td><a href="ofertas.html" target="_blank">Ofertas y Planes</a></td>
+	</tr></table>
+	</li>
+	
+	<li><table><tr><td><a href="adiestramiento.html" target="_blank"><img src="images/ofertas.jpg" width="24" height="22" /></a></td>
+	<td><a href="adiestramiento.html" target="_blank">Adiestramiento</a></td>
+	</tr></table>
+	</li>
+	
+	<li><table><tr><td><a href="cirugiasvideos.html" target="_blank"><img src="images/adiestramiento.jpg" width="24" height="22" /></a></td>
+	<td><a href="cirugiasvideos.html" target="_blank">Cirug&iacute;as</a></td>
+	</tr></table>
+	</li>
+	<li><table><tr><td><img src="images/cirugias.jpg" width="24" height="22" /></td>
+	<td><a href="tienda/catalog/index.php" target="_blank">Tienda Online</a></td>
+	</tr></table>
+	</li>
+	
+	<li><table><tr><td><img src="images/tienda.jpg" width="24" height="22" /></td>
+	<td><a href="contacto.html" target="_blank">Contacto</a></td>
+	</tr></table>
+	</li>
+
+</ul>
+			
+			
+			</div>
+			
+			</div>
+	
+	
+	
+	
+	
+	<div class="contenido"> 
+		
+		<p class="titulotitulo" style="margin-top:70px;">Su mensaje ha sido enviado, en breve nos comunicaremos con usted al correo que nos ha proporcionado</p>
+	</div>
+    <div class="m" style="background-color:#dae1f1; height:80px; float:left;position:absolute; bottom:-62px; font-size:14px;">
+    	<ul style="float:left; margin-top:15px;">
+        	<li style="list-style:none;"><a href="index.html" target="_blank">Inicio</a></li>
+            <li><a href="nosotros.html" target="_blank">Quienes somos</a></li>
+            <li><a href="ofertas.html" target="_blank">Ofertas y Planes</a></li>
+            <li><a href="adiestramiento.html" target="_blank">Adiestramiento</a></li>
+            <li><a href="cirugias.html" target="_blank">Cirugias</a></li>
+            <li><a href="tienda/catalog/index.php" target="_blank">Tienda en linea</a></li>
+            <li><a href="contacto.html" target="_blank">Contacto</a></li>
+            <li><a href="consultas.html" target="_blank">Consultas</a></li>
+			<li><a href="cirugias.html" target="_blank">Cirug&iacute;as</a></li>
+			<div style="margin-left:70px;"><li><a href="rayos.html" target="_blank">Rayos X, y Laboratorio</a></li>
+			<li><a href="insemi.html" target="_blank">Inseminaci&oacute;n Artificial</a></li>
+			<li><a href="pedigree.html" target="_blank">Pedigr&iacute;</a></li>
+			<li><a href="pension.html" target="_blank">Pensi&oacute;n y Estetica</a></li>
+			<li><a href="farmacia.html" target="_blank">Farmacia y Asesoria</a></li>
+			<li><a href="transporte.html" target="_blank">Transporte</a></li></div>
+        </ul>
+    </div>
+    <a href="https://www.youtube.com/HospitalVetPen"  style="position:absolute; top:760px; left:807px "  ><img src="images/you1.png" style="width:40px"/> </a>
+		<a href="https://www.twitter.com/HospitalVetpen"  style="position:absolute; top:760px; left:761px"  ><img src="images/tui1.png" style="width:40px"/> </a>
+		<a href="https://www.facebook.com/HospitalVeterinarioPeninsular?sk=app_295395557152520"  style="position:absolute; top:760px; left:715px"  ><img src="images/face1.png" style="width:40px"/> </a>
+</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Hospital Veterinaria</title>
+<link rel="stylesheet" href="fuente/caviarnegrita.css" type="text/css" charset="utf-8" />  
+	<link rel="stylesheet" href="fuente/caviarnormal.css" type="text/css" charset="utf-8" />   
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="jquery.backgroundPosition.js"></script>    
+
+<script type="text/javascript">
+$(function(){
+	$('#nav>li').hover(
+		function(){
+		$('.submenu',this).stop(true,true).slideDown('fast');
+		},
+		function(){
+		$('.submenu',this).slideUp('fast');
+		}
+	);
+ 
+	$('.submenu li a').css( {backgroundPosition: "0px 0px"} ).hover(
+		function(){
+		$(this).stop().animate({backgroundPosition: "(0px -99px)"}, 250);
+		},
+		function(){
+		$(this).stop().animate({backgroundPosition: "(0px 0px)"}, 250);
+		}
+	);			
+});
+</script>
+
+</head>
+
+<body>
+
+
+
+
+<div class="full" id="todo" align="center">
+  <div class="contenedor" id="pagina">
+	
+	<div class="encabezado"> 
+		<div class="banner" >
+			<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="674" height="308" id="hospital" align="middle">
+	<param name="allowScriptAccess" value="sameDomain" />
+	<param name="allowFullScreen" value="false" />	<param name="wmode" value="opaque" />
+	<param name="movie" value="hospital.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#fdfdfd" />	<embed src="hospital.swf" quality="high" bgcolor="#fdfdfd" width="674" height="308" name="hospital" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer_es" wmode="opaque"    />
+	</object>
+		</div>
+		
+		
+		<img src="images/doctor.jpg" style=" position:absolute; left:700px; top:110px;"/>
+		<img src="images/globo.png"  style=" position:absolute; left:700px; top:10px;"/>
+		
+		<div  id="uno">
+	  <div style="position:absolute; width: 185px; height:60px; background-image: url(images/logovete.jpg);"></div>
+		<div style="position:absolute; font-size:18px; text-align:center; width: 502px; height:24px; left: 186px; top: 6px; margin-top:15px;"><strong>El especialista en cuesti&oacute;n, siempre la mejor opci&oacute;n</strong></div>
+	</div>
+		<div class="franja" id="dos"></div>
+		
+	</div>
+	
+				<div class="mainmenu">
+			<div class="fondomenu">
+			
+			<ul id="nav">
+	<li>
+	  <table><tr><td><a href="index.html" ><img src="images/pata.jpg" width="24" height="22" /></a></td>
+	<td><a href="index.html" >Inicio</a></td></tr></table>
+	</li>
+	<li><table>
+	  <tr><td><a href="nosotros.html"><img src="images/inicio.jpg" width="24" height="22" /></a></td>
+	<td><a href="nosotros.html">Quienes Somos</a></td>
+	  </tr></table>
+	</li>
+	<li><table><tr><td><a href="#"><img src="images/somos.jpg" width="24" height="22" /></a></td>
+	<td><a href="#">Nuestros Servicios</a></td></tr></table>
+		<ul class="submenu">
+			<li><a href="consultas.html" >Consultas</a></li>
+			<li><a href="cirugias.html" >Cirug&iacute;as</a></li>
+			<li><a href="rayos.html" >Rayos X, y Laboratorio</a></li>
+			<li><a href="insemi.html" >Inseminaci&oacute;n Artificial</a></li>
+			<li><a href="pedigree.html" >Registro de Camadas(FCM)</a></li>
+			<li><a href="pension.html" >Pensi&oacute;n y Estetica</a></li>
+			<li><a href="farmacia.html" >Farmacia y Asesoria</a></li>
+			<li><a href="transporte.html" >Transporte</a></li>
+		</ul>
+	</li>
+	<li><table><tr><td><a href="ofertas.html" ><img src="images/servicios.jpg" width="24" height="22" /></a></td>
+	<td><a href="ofertas.html">Ofertas y Planes</a></td>
+	</tr></table>
+	</li>
+	
+	<li><table><tr><td><a href="adiestramiento.html" ><img src="images/ofertas.jpg" width="24" height="22" /></a></td>
+	<td><a href="adiestramiento.html" >Adiestramiento</a></td>
+	</tr></table>
+	</li>
+	
+	<li><table><tr><td><a href="cirugiasvideos.html" ><img src="images/adiestramiento.jpg" width="24" height="22" border="0" /></a></td>
+	<td><a href="cirugiasvideos.html" >Videos y Archivos</a></td>
+	</tr></table>
+	</li>
+	<li><table><tr><td><img src="images/cirugias.jpg" width="24" height="22" /></td>
+	<td><a href="tienda/catalog/index.php" target="_blank" >Tienda Online</a></td>
+	</tr></table>
+	</li>
+	
+	<li><table><tr><td><img src="images/tienda.jpg" width="24" height="22" /></td>
+	<td><a href="contacto.html" >Contacto</a></td>
+	</tr></table>
+	</li>
+
+</ul>
+			
+			
+			</div>
+			</div>
+	
+	
+	
+	
+	
+	<div class="contenido"> 
+		<div class="franja" id="div40"></div>
+      <div  id="divtext3">Va Ud. A salir de viaje y No tiene con quien dejar a su (s) mascota (s), conf&iacute;e en nosotros, puede Ud. Dej&aacute;rnosla el
+        tiempo que necesite, s&oacute;lo necesitamos que nos indique el tiempo de permanencia y algunos datos donde podamos localizarlo en caso necesario. Su mascota debe tener el calendario de sus vacunas vigente, debe estar acostumbrada a la dieta comercial balanceada (croquetas) y ser una mascota acostumbrada a la correa, pues en la pensi&oacute;n incluimos paseos diarios. El costo del servicio es por d&iacute;a y de acuerdo a la talla del ejemplar. Si Ud. No es cliente regular, ser&aacute; necesaria una consulta f&iacute;sica del ejemplar para darle una correcta garant&iacute;a, se recomienda avisar antes de ir por &eacute;l para poder entreg&aacute;rselo limpio y detallado, si la estancia es larga se programan los ba&ntilde;os y servicios que Ud. considere, siempre damos un alimento de excelente calidad (Premium), lo pesamos a su ingreso y al termino hacemos una relaci&oacute;n de su metabolismo en base al peso de salida, si tiene una dieta especial, ser&aacute; necesario que nos la proporcione o nos de la indicaci&oacute;n de consegu&iacute;rsela. Adem&aacute;s en la estancia lo acostumbramos a la convivencia humana y lo inducimos a que conozca comandos b&aacute;sicos de conducta.</div>
+        <div class="franja" id="div41"></div>
+    <img src="images/img1.jpg" width="349" height="205" style="position:absolute; left: 23px; top: 352px;" /></div>	
+    <img src="images/img2.jpg" width="253" height="350"  style="position:absolute; left: 393px; top: 736px; width: 138px; height: 206px;" /><img src="images/img3.jpg" width="496" height="202"  style="position:absolute; left: 553px; top: 738px; width: 348px; height: 205px;" />
+
+<div class="franja" id="div42"></div>
+<img src="images/perri.png" width="496" height="202"  style="position:absolute; left: 3px; top: 1066px; width: 204px; height: 191px;" />
+<div class="franja" id="div43"></div>
+
+<div ID="tit_farma51">Pensi&oacute;n:</div>
+<div ID="tit_farma52">Estetica:</div>
+<div ID="divtext4">Recibimos a su mascota desde las 7:00 AM de lunes a s&aacute;bado y el cupo es limitado, pues la calidad de los servicios nos ha impedido comercializarnos. Al recibirlo coordinaremos detalladamente las caracter&iacute;sticas del corte, el costo y la hora aproximada de su t&eacute;rmino. <br />
+<div ID="divtext5">
+  <p>Su mascota deber&aacute; estar saludable para iniciar con el servicio de est&eacute;tica; para esto, si en la recepci&oacute;n observamos alguna anomal&iacute;a se le sugerir&aacute; pasar a consulta, en ocasiones, &eacute;sta anomal&iacute;a es observada durante el ba&ntilde;o o cepillado, en ese momento nos comunicamos con Ud. Para informarle y sugerirle lo inherente al caso.</p>
+  <p>&nbsp;</p>
+  <p>Existen ejemplares que por su temperamento no se dejan ba&ntilde;ar o cepillar, en este caso, procederemos con una sujeci&oacute;n f&iacute;sica, pero si &eacute;ste, a&uacute;n as&iacute;, reh&uacute;sa un manejo adecuado, tambi&eacute;n se le informar&aacute; para que acuda por &eacute;l, nunca sedamos o anestesiamos un paciente por concepto de est&eacute;tica, a menos que Ud. nos lo autorice por escrito y el Dr. lo crea as&iacute; conveniente; en este caso, se programar&aacute; su sedaci&oacute;n y tendr&aacute; un trato especial, pues hay que valorar su estado de salud para poder aplicarle cualquier sedante o anest&eacute;sico.<br />
+    La presencia exagerada de par&aacute;sitos en piel como las garrapatas, pueden indicar de urgencia, una transfusi&oacute;n, mas que un ba&ntilde;o garrapaticida; por esto es muy importante que sea valorado en la recepci&oacute;n.</p>
+</div>
+<div ID="divtext6">
+  <p>Contamos para su comodidad con paquetes especiales de est&eacute;tica canina que buscan la oportunidad de servirles mejor a un precio preferencial: PAQUETE CERCANO, PAQUETE LEJANO Y PAQUETE FORANEO, Estos paquetes toman como referencia su direcci&oacute;n; Si &eacute;sta se encuentra entre el circuito y colonias y la nuestra (Av. Reforma,) Ud. Puede solicitar el Paquete Cercano. Si se ubica entre el circuito y colonias y el Perif&eacute;rico, aplicar&iacute;a el Paquete Lejano. Y por &uacute;ltimo, si su ubicaci&oacute;n esta fuera del perif&eacute;rico (colonias y lugares aleda&ntilde;os al mismo) aplica el Paquete For&aacute;neo. Adicionalmente se firma un contrato donde se anota si Ud. Desea que nosotros les llamemos por tel&eacute;fono o no. Nos pondremos de acuerdo sobre el horario de recoja y entrega, as&iacute; como el d&iacute;a del servicio.<br />
+    Este servicio de est&eacute;tica incluye: El transporte redondo (recoja y entrega), Ba&ntilde;o, shampoo, garrapaticida (desparasitaci&oacute;n externa), secado, corte de pelo a su elecci&oacute;n, limpieza de o&iacute;dos y sacos anales, lavado del escroto en machos y vulva en hembras, corte de u&ntilde;as y loci&oacute;n odorizante. NO SE INCLUYE EL DESENREDO, NI EL RAPADO FORZOSO POR PELO ENREDADO. En caso de requerirlo tendr&aacute; un costo adicional.<br />
+    El trato es muy afectivo e influimos en su educaci&oacute;n, ya que todos los ejemplares que se atienden se les ense&ntilde;a a bajarse y subirse al transporte con correa, as&iacute; como aprenden a dejarse ba&ntilde;ar, cepillar y secarse. Es una experiencia que nosotros disfrutamos.</p> <p> Ll&aacute;menos al 999 9250015 y contrate su Paquete de Est&eacute;tica, su mascota se lo agradecer&aacute; </p>
+    <p><a href="contrato.doc">VER CONTRATO</a></p>
+  </div>
+</div>
+ <div class="m" style="background-color:#dae1f1; height:80px; float:left;position:absolute; bottom:-820px; font-size:14px;">
+    	<ul style="float:left; margin-top:15px;">
+        	<li style="list-style:none;"><a href="index.html" >Inicio</a></li>
+            <li><a href="nosotros.html">Quienes somos</a></li>
+            <li><a href="ofertas.html" >Ofertas y Planes</a></li>
+            <li><a href="adiestramiento.html" >Adiestramiento</a></li>
+            <li><a href="cirugias.html" >Cirug&iacute;as</a></li>
+            <li><a href="tienda/catalog/index.php" target="_blank" >Tienda en linea</a></li>
+            <li><a href="contacto.html" >Contacto</a></li>
+            <li><a href="consultas.html" >Consultas</a></li>
+			<li><a href="cirugiasvideos.html" t>Videos y Archivos</a></li>
+			<div style="margin-left:70px;"><li><a href="rayos.html" >Rayos X, y Laboratorio</a></li>
+			<li><a href="insemi.html" >Inseminaci&oacute;n Artificial</a></li>
+			<li><a href="pedigree.html" >Pedigr&iacute;</a></li>
+			<li><a href="pension.html" >Pensi&oacute;n y Estetica</a></li>
+			<li><a href="farmacia.html" >Farmacia y Asesoria</a></li>
+			<li><a href="transporte.html" >Transporte</a></li></div>
+        </ul>
+    </div>
+</div>
+</div>
+</body>
+</html>

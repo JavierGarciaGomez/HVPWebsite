@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Hospital Veterinaria</title>
+
+<link rel="stylesheet" href="fuente/caviarnegrita.css" type="text/css" charset="utf-8" />  
+	<link rel="stylesheet" href="fuente/caviarnormal.css" type="text/css" charset="utf-8" />   
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="jquery.backgroundPosition.js"></script>    
+
+<script type="text/javascript">
+$(function(){
+	$('#nav>li').hover(
+		function(){
+		$('.submenu',this).stop(true,true).slideDown('fast');
+		},
+		function(){
+		$('.submenu',this).slideUp('fast');
+		}
+	);
+ 
+	$('.submenu li a').css( {backgroundPosition: "0px 0px"} ).hover(
+		function(){
+		$(this).stop().animate({backgroundPosition: "(0px -99px)"}, 250);
+		},
+		function(){
+		$(this).stop().animate({backgroundPosition: "(0px 0px)"}, 250);
+		}
+	);			
+});
+</script>
+
+</head>
+
+<body>
+
+
+
+
+<div class="full" id="todo" align="center">
+  <div class="contenedor" id="pagina">
+	
+	<div class="encabezado"> 
+		<div class="banner" >
+			<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="674" height="308" id="hospital" align="middle">
+	<param name="allowScriptAccess" value="sameDomain" />
+	<param name="allowFullScreen" value="false" />	<param name="wmode" value="opaque" />
+	<param name="movie" value="hospital.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#fdfdfd" />	<embed src="hospital.swf" quality="high" bgcolor="#fdfdfd" width="674" height="308" name="hospital" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer_es" wmode="opaque"    />
+	</object>
+		</div>
+		
+		
+		<img src="images/doctor.jpg" style=" position:absolute; left:700px; top:110px;"/>
+		<img src="images/globo.png"  style=" position:absolute; left:700px; top:10px;"/>
+		
+		<div  id="uno">
+	  <div style="position:absolute; width: 185px; height:60px; background-image: url(images/logovete.jpg);"></div>
+		<div style="position:absolute; font-size:18px; text-align:center; width: 502px; height:24px; left: 186px; top: 6px; margin-top:15px;"><strong>El especialista en cuesti&oacute;n, siempre es la mejor opci&oacute;n</strong></div>
+	</div>
+		<div class="franja" id="dos"></div>
+		
+	</div>
+	
+				<div class="mainmenu">
+			<div class="fondomenu">
+			
+			<ul id="nav">
+	<li>
+	  <table><tr><td><a href="index.html" ><img src="images/pata.jpg" width="24" height="22" /></a></td>
+	<td><a href="index.html">Inicio</a></td></tr></table>
+	</li>
+	<li><table>
+	  <tr><td><a href="nosotros.html" ><img src="images/inicio.jpg" width="24" height="22" /></a></td>
+	<td><a href="nosotros.html">Quienes Somos</a></td>
+	  </tr></table>
+	</li>
+	<li><table><tr><td><a href="#"><img src="images/somos.jpg" width="24" height="22" /></a></td>
+	<td><a href="#">Nuestros Servicios</a></td></tr></table>
+		<ul class="submenu">
+			<li><a href="consultas.html" >Consultas</a></li>
+			<li><a href="cirugias.html" >Cirug&iacute;as</a></li>
+			<li><a href="rayos.html" >Rayos X, y Laboratorio</a></li>
+			<li><a href="insemi.html" >Inseminaci&oacute;n Artificial</a></li>
+			<li><a href="pedigree.html" >Registro de Camadas(FCM)</a></li>
+			<li><a href="pension.html" >Pensi&oacute;n y Estetica</a></li>
+			<li><a href="farmacia.html">Farmacia y Asesoria</a></li>
+			<li><a href="transporte.html" t>Transporte</a></li>
+		</ul>
+	</li>
+	<li><table><tr><td><a href="ofertas.html" target="_blank"><img src="images/servicios.jpg" width="24" height="22" /></a></td>
+	<td><a href="ofertas.html" target="_blank">Ofertas y Planes</a></td>
+	</tr></table>
+	</li>
+	
+	<li><table><tr><td><a href="adiestramiento.html" ><img src="images/ofertas.jpg" width="24" height="22" /></a></td>
+	<td><a href="adiestramiento.html" >Adiestramiento</a></td>
+	</tr></table>
+	</li>
+	
+	<li><table><tr><td><a href="cirugiasvideos.html" ><img src="images/adiestramiento.jpg" width="24" height="22" /></a></td>
+	<td><a href="cirugiasvideos.html" >Videos y Archivos</a></td>
+	</tr></table>
+	</li>
+	<li><table><tr><td><img src="images/cirugias.jpg" width="24" height="22" /></td>
+	<td><a href="tienda/catalog/index.php" target="_blank">Tienda Online</a></td>
+	</tr></table>
+	</li>
+	
+	<li><table><tr><td><img src="images/tienda.jpg" width="24" height="22" /></td>
+	<td><a href="contacto.html" >Contacto</a></td>
+	</tr></table>
+	</li>
+
+</ul>
+			
+			
+			</div>
+			
+			</div>
+	
+	
+	<div class="contenido"> 
+		
+		<div class="caja" id="caja1"> 
+			<img src="images/img_cir1.jpg" style="position:relative;top:10px; left:5px;" />
+			<img src="images/img_cir2.jpg"  style="position:relative;top:22px; left:5px;"/>
+			<img src="images/img_cir5.jpg"  style="position:relative;top:22px; left:5px;"/>
+		</div>
+		<div class="caja" id="caja2"> </div>
+		<div class="franja" id="cinco"></div>
+		<div class="franja" id="seis"></div>
+		
+		<div class="titulo" id="tit_cirugias"> Cirug&iacute;as</div>
+		
+		<div class="texto" id="txt_cirugias"><p>Las cirug&iacute;as en la gran mayor&iacute;a de los casos, no son urgencias, por lo tanto, se requiere de programaci&oacute;n y preparaci&oacute;n del paciente, as&iacute; como una autorizaci&oacute;n escrita por parte del propietario y los an&aacute;lisis de laboratorio que se requieran de acuerdo al caso. Debe tener ayuno de s&oacute;lidos y/o l&iacute;quidos un tiempo previo, el cu&aacute;l se le indicar&aacute;. Empleamos los equipos m&aacute;s modernos de anestesia con ox&iacute;geno y fulguraci&oacute;n (coagulaci&oacute;n sangu&iacute;nea y corte), as&iacute; como los monitores electr&oacute;nicos que nos indican los signos vitales de nuestros pacientes durante el proceso quir&uacute;rgico. Tenga Ud. La plena confianza que su mascota est&aacute; en las mejores manos y que tratamos de tener el nivel tecnol&oacute;gico y de actualizaci&oacute;n m&aacute;s avanzado. La &aacute;reas de especializaci&oacute;n son: Cirug&iacute;a General, Est&eacute;tica, Reproductiva o ginecol&oacute;gica (Ces&aacute;reas, partos), Traumatolog&iacute;a y Ortopedia, Urol&oacute;gica, Oncol&oacute;gica y
+Oftalmol&oacute;gica, con alta experiencia en cataratas con m&iacute;nima invasi&oacute;n.
+Ejemplos de cirug&iacute;as:
+General: Cirug&iacute;a Est&eacute;tica (Orejas y cola),  Tumores cut&aacute;neos, heridas en general, Prolapsos, Hernias, etc.
+Reproductiva: Ovario histerectom&iacute;a (Castraci&oacute;n en hembras), Orquiectom&iacute;a (Castraci&oacute;n en machos), Vasectom&iacute;a, Ces&aacute;reas, etc.
+Gastrointestinal: Obstrucci&oacute;n intestinal, por cuerpos extra&ntilde;os, Gastrotom&iacute;as, Enterotom&iacute;as, Anastomosis intestinales, Torsiones intestinales, etc.
+Urol&oacute;gica: C&aacute;lculos Urinarios, Uretrostom&iacute;a, Nefrectom&iacute;as y Nefrotom&iacute;as, etc.
+Traumatolog&iacute;a y Ortopedia: Reparaci&oacute;n de Fracturas de los diversos huesos del cuerpo y articulaciones.
+Oftalmol&oacute;gica: Defectos en P&aacute;rpados y C&oacute;rnea, Cataratas con Facoemulsificaci&oacute;n (una peque&ntilde;a incisi&oacute;n de 3 mm) con microscopio oftalmol&oacute;gico. Etc.
+Odontol&oacute;gica: Extracci&oacute;n y limpieza de piezas dentales con equipo ultras&oacute;nico, y mucho m&aacute;s.
+
+
+
+
+
+
+
+
+</p></div>
+	  <div class="caja" id="caja3"> </div>
+		<div class="caja" id="caja4">
+			<img src="images/img_cir3.jpg" style="position:relative;top:10px; left:18px;" />
+			<img src="images/img_cir4.jpg" style="position:relative;top:30px; left:18px;" />
+		</div>
+		<div class="titulo" id="tit_cirugias2"> Facoemulsificador</div>
+		<div class="texto" id="txt_cirugias2">
+			Es una t&eacute;cnica moderna con equipo de alta especialidad que con una incisi&oacute;n de 3 mil&iacute;metros se extrae la catarata
+			
+			devolviendo la vista a ejemplares que la hab&iacute;an perdido, se recomienda valorar al paciente antes, pues existen algunas que por sus caracter&iacute;sticas no son operables, pues reflejan otro tipo de patolog&iacute;as; somos &uacute;nicos en el sureste que ha desarrollado esta implementaci&oacute;n y se requiere de propietarios comprometidos con la aplicaci&oacute;n de gotas post-cirug&iacute;a y pacientes d&oacute;ciles que no se rasquen en exceso y que se dejen medicar, por lo general los propietarios que viven con sus mascotas en el interior de la casa, son buenos candidatos a este tipo de cirug&iacute;as. Las cataratas se producen cuando una lente que existe dentro del ojo llamada cristalino que en condiciones normales es transparente se vuelve opaca. Las causas pueden ser varias como un traumatismo, metab&oacute;licas pero la causa m&aacute;s frecuente es la debida al envejecimiento de nuestro perro. Es muy frecuente que veamos una opacidad de color blanquecino a partir de los 7-8 a&ntilde;os de nuestro animal sobre todo cuando le incide directamente una luz como una linterna		</div>
+             <div class="m" style="background-color:#dae1f1; height:80px; float:left;position:absolute; bottom:-980px; font-size:14px;">
+    	<ul style="float:left; margin-top:15px;">
+        	<li style="list-style:none;"><a href="index.html" >Inicio</a></li>
+            <li><a href="nosotros.html">Quienes somos</a></li>
+            <li><a href="ofertas.html" >Ofertas y Planes</a></li>
+            <li><a href="adiestramiento.html" >Adiestramiento</a></li>
+            <li><a href="cirugias.html" >Cirug&iacute;as</a></li>
+            <li><a href="tienda/catalog/index.php" target="_blank">Tienda en linea</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="consultas.html" >Consultas</a></li>
+			<li><a href="cirugiasvideos.html" >Videos y Archivos</a></li>
+			<div style="margin-left:70px;"><li><a href="rayos.html" >Rayos X, y Laboratorio</a></li>
+			<li><a href="insemi.html" >Inseminaci&oacute;n Artificial</a></li>
+			<li><a href="pedigree.html" >Pedigr&iacute;</a></li>
+			<li><a href="pension.html" >Pensi&oacute;n y Estetica</a></li>
+			<li><a href="farmacia.html">Farmacia y Asesoria</a></li>
+			<li><a href="transporte.html" >Transporte</a></li></div>
+        </ul>
+    </div>
+    <a href="https://www.youtube.com/HospitalVetPen" target="_blank"  style="position:absolute; top:830px; left:807px "  ><img src="images/you1.png" style="width:40px"/> </a>
+		<a href="https://twitter.com/#!/HospitalVetPen"target="_blank"  style="position:absolute; top:830px; left:761px"  ><img src="images/tui1.png" style="width:40px"/> </a>
+		<a href="https://www.facebook.com/HospitalVeterinarioPeninsular"target="_blank"  style="position:absolute; top:830px; left:715px"  ><img src="images/face1.png" style="width:40px"/> </a>
+	</div>
+	
+	
+	
+	
+	
+</div>
+</div>
+</body>
+</html>

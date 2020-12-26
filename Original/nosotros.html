@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Hospital Veterinaria</title>
+<link rel="stylesheet" href="fuente/caviarnegrita.css" type="text/css" charset="utf-8" />  
+	<link rel="stylesheet" href="fuente/caviarnormal.css" type="text/css" charset="utf-8" />  
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="jquery.backgroundPosition.js"></script>    
+
+<script type="text/javascript">
+$(function(){
+	$('#nav>li').hover(
+		function(){
+		$('.submenu',this).stop(true,true).slideDown('fast');
+		},
+		function(){
+		$('.submenu',this).slideUp('fast');
+		}
+	);
+ 
+	$('.submenu li a').css( {backgroundPosition: "0px 0px"} ).hover(
+		function(){
+		$(this).stop().animate({backgroundPosition: "(0px -99px)"}, 250);
+		},
+		function(){
+		$(this).stop().animate({backgroundPosition: "(0px 0px)"}, 250);
+		}
+	);			
+});
+</script>
+
+</head>
+
+<body>
+
+
+
+
+<div class="full" id="todo" align="center">
+  <div class="contenedor" id="pagina">
+	
+	<div class="encabezado"> 
+		<div class="banner" >
+			<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="674" height="308" id="hospital" align="middle">
+	<param name="allowScriptAccess" value="sameDomain" />
+	<param name="allowFullScreen" value="false" />	<param name="wmode" value="opaque" />
+	<param name="movie" value="hospital.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#fdfdfd" />	<embed src="hospital.swf" quality="high" bgcolor="#fdfdfd" width="674" height="308" name="hospital" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer_es" wmode="opaque"    />
+	</object>
+		</div>
+		
+		
+		<img src="images/doctor.jpg" style=" position:absolute; left:700px; top:110px;"/>
+		<img src="images/globo.png"  style=" position:absolute; left:700px; top:10px;"/>
+		
+		<div  id="uno">
+	  <div style="position:absolute; width: 185px; height:60px; background-image: url(images/logovete.jpg);"></div>
+		<div style="position:absolute; font-size:18px; text-align:center; width: 502px; height:24px; left: 186px; top: 6px; margin-top:15px;"><strong>El especialista en cuesti&oacute;n, siempre es la mejor opci&oacute;n</strong></div>
+	</div>
+		<div class="franja" id="dos"></div>
+		
+	</div>
+	
+				<div class="mainmenu">
+			<div class="fondomenu">
+			
+			<ul id="nav">
+	<li>
+	  <table><tr><td><a href="index.html" ><img src="images/pata.jpg" width="24" height="22" /></a></td>
+	<td><a href="index.html" >Inicio</a></td></tr></table>
+	</li>
+	<li><table>
+	  <tr><td><a href="nosotros.html" ><img src="images/inicio.jpg" width="24" height="22" /></a></td>
+	<td><a href="nosotros.html" >Quienes Somos</a></td>
+	  </tr></table>
+	</li>
+	<li><table><tr><td><a href="#"><img src="images/somos.jpg" width="24" height="22" /></a></td>
+	<td><a href="#">Nuestros Servicios</a></td></tr></table>
+		<ul class="submenu">
+			<li><a href="consultas.html" >Consultas</a></li>
+			<li><a href="cirugias.html" >Cirug&iacute;as</a></li>
+			<li><a href="rayos.html" >Rayos X, y Laboratorio</a></li>
+			<li><a href="insemi.html" >Inseminaci&oacute;n Artificial</a></li>
+			<li><a href="pedigree.html" >Registro de Camadas(FCM)</a></li>
+			<li><a href="pension.html" >Pensi&oacute;n y Estetica</a></li>
+			<li><a href="farmacia.html" >Farmacia y Asesoria</a></li>
+			<li><a href="transporte.html" >Transporte</a></li>
+		</ul>
+	</li>
+	<li><table><tr><td><a href="ofertas.html" ><img src="images/servicios.jpg" width="24" height="22" /></a></td>
+	<td><a href="ofertas.html" >Ofertas y Planes</a></td>
+	</tr></table>
+	</li>
+	
+	<li><table><tr><td><a href="adiestramiento.html" ><img src="images/ofertas.jpg" width="24" height="22" border="0" /></a></td>
+	<td><a href="adiestramiento.html">Adiestramiento</a></td>
+	</tr></table>
+	</li>
+	
+	<li><table><tr><td><a href="cirugiasvideos.html" t><img src="images/adiestramiento.jpg" width="24" height="22" /></a></td>
+	<td><a href="cirugiasvideos.html" >Videos y Archivos</a></td>
+	</tr></table>
+	</li>
+	<li><table><tr><td><img src="images/cirugias.jpg" width="24" height="22" /></td>
+	<td><a href="tienda/catalog/index.php" target="_blank">Tienda Online</a></td>
+	</tr></table>
+	</li>
+	
+	<li><table><tr><td><img src="images/tienda.jpg" width="24" height="22" /></td>
+	<td><a href="contacto.html" >Contacto</a></td>
+	</tr></table>
+	</li>
+
+</ul>
+			</div>
+			</div>
+	<div class="contenido"> 
+			<div id="trestres">
+				<div class="franja" id="cuatrocuatro"></div>
+					<div class="titulotitulo"> 
+                    	Bienvenidos  
+                    </div>
+                <div style="width:375px; float:left; margin:15px 23px 23px 30px; text-indent:1.5em;">
+                	Somos una empresa con una filosof&iacute;a de servicio al cliente, enfocada en la atenci&oacute;n de sus mascotas.    Buscamos ser un enlace de comunicaci&oacute;n y confort con los propietarios de nuestros pacientes, la superaci&oacute;n constante es nuestra meta y aceptamos las sugerencias necesarias que nos ayuden a alcanzar nuestros objetivos.<br/>
+   <p>Tener una mascota es un privilegio, nosotros lo entendemos y por esto contamos con un equipo de personal  capacitado en diversas &aacute;reas para poder asesorarlo y procurar la salud y la terap&eacute;utica necesaria que garantice el bienestar de ellas.</p>
+                </div>
+                <div style="width:350px; float:left; margin:15px 20px 20px 30px; text-indent:1.5em;">
+                	<p>El Hospital Veterinario Peninsular es una empresa con mas de 20 a&ntilde;os de experiencia y la primera en su tipo en el sureste de M&eacute;xico. Es el primer Hospital Veterinario en la ciudad de M&eacute;rida Yucat&aacute;n y abre sus puertas el 26 de Noviembre de 1990..</p>
+&nbsp;<br/>
+<p>Su Objetivo fu&eacute;: Crear un hospital con todo lo necesario para que una mascota pueda encontrar los servicios m&eacute;dicos, quir&uacute;rgicos y de diagn&oacute;stico especializados en los animales de compa&ntilde;&iacute;a.males de compa&ntilde;&iacute;a.</p>
+                </div>
+                <div style="float:left; width:800px; margin:15px 23px 23px 30px; text-indent:1.5em;">
+                	En M&eacute;rida, exist&iacute;an cl&iacute;nicas, consultorios y farmacias veterinarias, pero no un centro de hospitalizaci&oacute;n, cirug&iacute;a y diagn&oacute;stico. El propietario el MVCA Rafael A Garc&iacute;a L&oacute;pez, siendo Yucateco de nacimiento y habiendo tenido desde peque&ntilde;o muchas mascotas, tuvo la visi&oacute;n de estudiar en la ciudad de Puebla, donde exist&iacute;an estudios especializados en la cl&iacute;nica de animales de compa&ntilde;&iacute;a, en una Universidad Privada ( la primera en el Pa&iacute;s), conocida como Universidad Cuetlaxcoapan, ahora Universidad Mesoamericana Campus Puebla.
+Actualmente (2012) cuenta con instalaciones propias en un ambiente fresco de &aacute;reas verdes que le dan una atmosfera de calidez y naturaleza digna para convivir con las mascotas. La Vanguardia en la tecnolog&iacute;a es su distinci&oacute;n; El Hospital Veterinario Peninsular es una referencia m&eacute;dica en diversas &aacute;reas de la especialidad y &uacute;nico en el sureste Mexicano con el servicio de cirug&iacute;a oftalmol&oacute;gica de cataratas con facoemulsificaci&oacute;n (t&eacute;cnica de m&iacute;nima invasi&oacute;n). La oportunidad de servirle es una de sus metas, su colaboraci&oacute;n con ella es muy valiosa y unidos lograran con sus mascotas, un lugar de plenitud en la localidad.
+                </div>
+	        </div>
+           
+         <div id="cc" style="width:420px;">
+              <div class="franja" id="diez"></div>
+             	<div class="titulotitulo">Misi&oacute;n</div>
+             <div style="text-indent:1.5em;" id="c">
+             	<p>Somos un equipo Multidisciplinario de M&eacute;dicos Veterinarios y personal capacitado para la atenci&oacute;n integral de las mascotas, con el fin de restablecer, mejorar y preservar su salud, as&iacute; como prevenir y evitar las enfermedades que puedan adquirir, a trav&eacute;s de una atenci&oacute;n de calidad, humanismo, compromiso y honradez de los servicios, con los recursos adecuados para garantizar el bienestar animal y la satisfacci&oacute;n humana.</p>
+             </div>
+         </div>
+          <div id="ccc">
+          <div id="caja7" class="caja"></div>
+              <div class="franja" id="once"></div>
+             	<div class="titulotitulo" style="padding-left:65px; ">Valores</div>
+                <div style="width:311px; padding-top:15px; text-indent:1.5em">
+                <p>Honestidad    Lealtad    Responsabilidad</p>   
+                <p>Justicia     Compromiso  y  Humildad</p></div>
+             
+         </div>
+         <div id="dd" style="width:420px;">
+              <div class="franja" id="cuatrocuatro"></div>
+             	<div class="titulotitulo">Visi&oacute;n</div>
+             <div style="text-indent:1.5em;" id="d">
+             	<p>Ser Un Centro de Atenci&oacute;n M&eacute;dica Veterinaria que trascienda en la localidad y sus fronteras por la calidad en los serviciosvanguardistas que proporciona; logrados a trav&eacute;s de la disciplina, el trabajo, el esfuerzo y la paciencia, para ejercer el liderazgo necesario en la asistencia m&eacute;dica, docencia e investigaci&oacute;n, que apoyado por equipo tecnol&oacute;gico de punta, permita lograr la satisfacci&oacute;n de los pacientes, su familia y la Sociedad.</p>
+             </div>
+             </div>
+             
+             <div id="ddd">
+          		<div id="caja7" class="caja"></div>
+              	<div class="franja" id="once"></div>
+             	<div class="titulotitulo" style="padding-left:65px; ">Ubicaci&oacute;n</div>
+                <div style="width:311px; padding-top:15px;">
+                <p>Calle 72 Reforma No 342-C Cruzamientos</p>   
+                <p>Av.Col&oacute;n y Av.Cupules en M&eacute;rida Yucat&aacute;n,</p>
+                <p>M&eacute;xico CP 97000 tel. (999) 9250015</p>
+                </div>
+         </div>
+         <div id="caja8" class="caja">
+         </div>
+         <div id="doce" class="franja">
+      </div>
+         <div id="txt_nosotros4" class="texto">
+         <p style="line-height: 19px;">
+				Un pa&iacute;s, una civilizaci&oacute;n, una persona se puede juzgar por la forma en que trata a sus animales.</p></div>
+         <img src="images/img_nos1.jpg" style="position:absolute; top:1239px; left:10px; "/>
+	
+		<a href="https://www.youtube.com/HospitalVetPen"target="_blank"  style="position:absolute; top:1360px; left:807px "  ><img src="images/you1.png" style="width:40px"/> </a>
+		<a href="https://twitter.com/#!/HospitalVetPen"  target="_blank"style="position:absolute; top:1360px; left:761px"  ><img src="images/tui1.png" style="width:40px"/> </a>
+		<a href="https://www.facebook.com/HospitalVeterinarioPeninsular" target="_blank" style="position:absolute; top:1360px; left:715px"  ><img src="images/face1.png" style="width:40px"/> </a>
+        <p><a href="http://g.co/maps/7c3va" target="_blank" style="position:absolute; right:120px; top:1000px; z-index:3; font-family:'Caviar Dreams'; font-size:18px; color:#000000; text-decoration:underline;">Vista desde Google Maps</a></p>
+	
+	
+	
+	</div>
+	 <div style="background-color:#dae1f1; height:80px; float:left;position:absolute; bottom:-1120px; font-size:14px;">
+    	<ul style="float:left; margin-top:15px;">
+        	<li style="list-style:none;"><a href="index.html" >Inicio</a></li>
+            <li><a href="nosotros.html" >Quienes somos</a></li>
+            <li><a href="ofertas.html" >Ofertas y Planes</a></li>
+            <li><a href="adiestramiento.html" >Adiestramiento</a></li>
+            <li><a href="cirugias.html" >Cirug&iacute;as</a></li>
+            <li><a href="tienda/catalog/index.php" target="_blank">Tienda en linea</a></li>
+            <li><a href="contacto.html" >Contacto</a></li>
+            <li><a href="consultas.html" >Consultas</a></li>
+			<li><a href="cirugiasvideos.html" >Videos y Archivos</a></li>
+			<div style="margin-left:70px;"><li><a href="rayos.html" >Rayos X, y Laboratorio</a></li>
+			<li><a href="insemi.html" >Inseminaci&oacute;n Artificial</a></li>
+			<li><a href="pedigree.html" >Pedigr&iacute;</a></li>
+			<li><a href="pension.html" >Pensi&oacute;n y Estetica</a></li>
+			<li><a href="farmacia.html" >Farmacia y Asesoria</a></li>
+			<li><a href="transporte.html" >Transporte</a></li></div>
+        </ul>
+    </div>
+	
+	
+	
+	
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,906 @@
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+	border:none;
+	line-height: 19px;
+	text-align: justify;
+} a{outline:none;text-decoration:none;} 
+html { min-height: 100%; margin-bottom: 1px; }
+
+body {
+	margin:0;
+	padding:0;
+	color:#fff;
+	text-align: justify;
+	
+}
+
+
+
+.full{
+	position:absolute;
+	margin-left:auto;
+	margin-top:auto;
+	width:100%;
+	height:100%;
+	top: 0px;
+	left: 0px;
+}
+.contenedor{
+	position:absolute;
+	width:945px;
+	height:847px;
+	left:50%;
+	top:10px;
+	margin:0 auto;
+	margin-left:-480px;
+	text-align:left;
+}
+}
+.banner{position:absolute; top:14px;}
+.cabezera{position:absolute;width:945px;height:322px;left:0px;top:0px;overflow:hidden; text-align:justify;background-color: #FFF; }
+.franja{
+	position:absolute;
+	opacity:.2;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Op acity=20)";
+	filter: alpha(opacity=20);
+	top: -234px;
+}
+
+#uno{
+	width:689px;
+	height:61px;
+	top:237px;
+	left:-1px;
+	background-color:#0E368D;
+	z-inde:1;
+	position: absolute;
+}
+#dos{
+	width:343px;
+	height:328px;
+	top:-8px;
+	left:347px;
+	background-color:#486AB8;
+}
+#tres{width:441px ;height:293px; top:0px; left:px; background-color:#486AB8;}
+#cuatro{
+	width:326px;
+	height:40px;
+	left:135px;
+	background-color:#FF0000;
+	top: 15px;
+}
+
+#cinco{width:860px ;height:293px; top:480px; left:0px; background-color:#C18C27;}
+#seis{width:652px ;height:72px; top:0px; left:0px; background-color:#C18C27;}
+#siete{width:279px ;height:43px; top:56px; left:0px; background-color:#FF0000;}
+#ocho{width:255px ;height:52px; top:39px; left:10px; background-color:#486AB8;}
+#nueve{width:349px ;height:287px; top:39px; left:595px; background-color:#C18C27;}
+#diez{width:117px ;height:270px; top:350px; left:0px; background-color:#C18C27;}
+#once{width:311px ;height:174px; top:360px; left:615px; background-color:#FF0000;}
+#doce{width:945px ;height:68px; top:700px; left:0px; background-color:#486AB8;}
+#trece{width:397px ;height:43px; top:10px; left:15px; background-color:#FF0000;}
+#catorce{
+	width:150px;
+	height:44px;
+	top:3px;
+	left:44px;
+	background-color:#000099;
+}
+
+#ochenta{
+	width:694px;
+	height:111px;
+	top:7px;
+	left:249px;
+	background-color:#993300;
+}
+
+
+
+#quince{width:345px ;height:460px; top:30px; left:0px; background-color:#FF0000;}
+#dieciseis{width:942px ;height:119px; top:360px; left:0px; background-color:#C18C27;}
+#diesisiete{width:326px ;height:40px; top:320px; left:0px; background-color:#C18C27;}
+#diesiocho{width:300px ;height:40px; top:20px; left:645px; background-color:#FF0000;}
+#diesinueve{width:300px ;height:60px; top:10px; left:600px; background-color:#486AB8;}
+
+#veintiuno{width:350px ;height:40px; top:20px; left:0px; background-color:#FF0000;}
+#veinte{width:641px ;height:393px; top:10px; left:0px; background-color:#486AB8;}
+#veintidos{width:210px ;height:43px; top:315px; left:698px; background-color:#486AB8;}
+
+
+
+
+#treinta{
+	width:204px;
+	height:45px;
+	top:24px;
+	left:12px;
+	background-color:#FF0000;
+	float: none;
+}
+#treintauno{
+	width:229px;
+	height:59px;
+	top:9px;
+	left:52px;
+	background-color:#486AB8;
+}
+#treintados{width:210px ;height:43px; top:315px; left:698px; background-color:#486AB8;}
+#treintatres{width:210px ;height:43px; top:315px; left:698px; background-color:#486AB8;}
+#treintacuatro{
+	width:399px;
+	height:59px;
+	top:337px;
+	left:478px;
+	background-color:#486AB8;
+}
+
+
+
+
+#div21{
+	width:326px;
+	height:40px;
+	left:-35px;
+	background-color:#FF0000;
+	margin-top:280px;
+}
+
+#div30{
+	width:234px;
+	height:40px;
+	left:3px;
+	background-color:#FF0000;
+	margin-top:280px;
+}
+
+#div31{
+	width:322px;
+	height:40px;
+	background-color:#FF0000;
+	margin-top:-20px;
+	float: right;
+	position: absolute;
+	left: 609px;
+	top: 444px;
+}
+
+#div32{
+	width:374px;
+	height:251px;
+	background-color:#FF0000;
+	margin-top:-20px;
+	float: right;
+	position: absolute;
+	left: 535px;
+	top: 430px;
+}
+#div33{
+	width:391px;
+	height:40px;
+	background-color:#993300;
+	margin-top:-20px;
+	float: right;
+	position: absolute;
+	left: 517px;
+	top: 410px;
+}
+
+#div34{
+	width:230px;
+	height:370px;
+	background-color:#993300;
+	margin-top:-20px;
+	float: right;
+	position: absolute;
+	left: 10px;
+	top: 743px;
+}
+
+#div35{
+	width:367px;
+	height:389px;
+	background-color:#486AB8;
+	margin-top:-20px;
+	float: right;
+	position: absolute;
+	left: 20px;
+	top: 696px;
+}
+
+
+#div36{
+	width:450px;
+	height:54px;
+	background-color:#993300;
+	margin-top:-20px;
+	float: right;
+	position: absolute;
+	left: 458px;
+	top: 764px;
+}
+
+#div37{
+	width:450px;
+	height:54px;
+	background-color:#993300;
+	margin-top:-20px;
+	float: right;
+	position: absolute;
+	left: 458px;
+	top: 764px;
+}
+
+#div38{
+	width:278px;
+	height:691px;
+	background-color:#0033CC;
+	margin-top:-20px;
+	float: right;
+	position: absolute;
+	left: 665px;
+	top: 61px;
+}
+
+#div39{
+	width:251px;
+	height:183px;
+	background-color:#0033FF;
+	margin-top:-20px;
+	float: right;
+	position: absolute;
+	left: 673px;
+	top: 873px;
+}
+
+#div40{
+	width:172px;
+	height:302px;
+	background-color:#993300;
+	margin-top:-20px;
+	float: right;
+	position: absolute;
+	left: 0px;
+	top: 32px;
+}
+
+#div41{
+	width:944px;
+	height:68px;
+	background-color:#FF0000;
+	margin-top:-20px;
+	float: right;
+	position: absolute;
+	left: 3px;
+	top: 443px;
+}
+
+#div42{
+	width:199px;
+	height:38px;
+	background-color:#993300;
+	margin-top:-20px;
+	float: right;
+	position: absolute;
+	left: 1px;
+	top: 992px;
+}
+
+
+#div43{
+	width:350px;
+	height:317px;
+	background-color:#0033CC;
+	margin-top:-20px;
+	float: right;
+	position: absolute;
+	left: 1px;
+	top: 1029px;
+}
+
+#div44{
+	width:406px;
+	height:80px;
+	background-color:#0033CC;
+	margin-top:-20px;
+	float: right;
+	position: absolute;
+	left: 87px;
+	top: 438px;
+}
+
+#div45{
+	width:352px;
+	height:48px;
+	background-color:#FF0000;
+	margin-top:-20px;
+	float: right;
+	position: absolute;
+	left: 7px;
+	top: 451px;
+}
+
+#div46{
+	width:322px;
+	height:177px;
+	background-color:#FF0000;
+	margin-top:-20px;
+	float: right;
+	position: absolute;
+	left: 45px;
+	top: 457px;
+}
+#div47{
+	width:322px;
+	height:177px;
+	background-color:#993300;
+	margin-top:-20px;
+	float: right;
+	position: absolute;
+	left: 522px;
+	top: 205px;
+}
+#div48{
+	width:322px;
+	height:177px;
+	background-color:#0033CC;
+	margin-top:-20px;
+	float: right;
+	position: absolute;
+	left: 517px;
+	top: 457px;
+}
+
+#divtext1{
+	position:absolute;
+	width:275px;
+	height:26px;
+	left:16px;
+	margin-top:280px;
+	top: -224px;
+	color: #666666;
+	font-size: 12px;
+}
+
+#divtext2{
+	position:absolute;
+	width:404px;
+	height:396px;
+	left:476px;
+	margin-top:280px;
+	top: 535px;
+	line-height: 19px;
+	color:#4C4B4B;
+	position: absolute;
+	font-family:'CaviarDreamsBold';
+}
+
+#divtext3{
+	position:absolute;
+	width:928px;
+	height:249px;
+	left:16px;
+	margin-top:280px;
+	top: -199px;
+	color:#4C4B4B;
+	position: absolute;
+	font-family:'CaviarDreamsBold';
+	font-size: 15px;
+	font-family: 'CaviarDreamsBold';
+	line-height: 19px;
+	}
+	
+	#divtext4{
+	position:absolute;
+	width:928px;
+	height:44px;
+	left:51px;
+	margin-top:280px;
+	top: 737px;
+	color:#4C4B4B;
+	position: absolute;
+	font-family:'CaviarDreamsBold';
+	font-size: 15px;
+	font-family: 'CaviarDreamsBold';
+	line-height: 19px;
+	}
+	
+		#divtext5{
+	position:absolute;
+	width:781px;
+	height:196px;
+	left:157px;
+	margin-top:280px;
+	top: -228px;
+	color:#4C4B4B;
+	position: absolute;
+	font-family:'CaviarDreamsBold';
+	font-size: 15px;
+	font-family: 'CaviarDreamsBold';
+	line-height: 19px;
+	}
+	
+		#divtext6{
+	position:absolute;
+	width:981px;
+	height:290px;
+	left:-44px;
+	margin-top:280px;
+	top: -8px;
+	color:#4C4B4B;
+	position: absolute;
+	font-family:'CaviarDreamsBold';
+	font-size: 15px;
+	font-family: 'CaviarDreamsBold';
+	line-height: 19px;
+	}
+	
+.franja2{
+	position:absolute;
+	opacity:.2;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Op acity=20)";
+	filter: alpha(opacity=20);
+	top: 15px;
+}
+.mensaje{
+	position:absolute;
+	left:9px;
+	top:299px;
+	font-size:24px;
+	color:#0060FF;
+	width: 237px;
+}
+
+.mainmenu{display:block;position:absolute; top:178px; }
+
+
+.mainmenu ul li{background-position:right 0;margin:0 2px;height:28px}
+.mainmenu ul li a{
+	margin-right:3px;
+	text-align:center;
+	color:#093C8A;
+	font-size:11px;
+	line-height:16px;
+	height:28px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 0;
+	padding-left: 0px;
+}
+
+.mainmenu ul li:hover,.mainmenu ul li#current{
+	background-position:right -10px;
+	cursor:pointer
+}
+.mainmenu ul li:hover a,.mainmenu ul li#current a{background-position:0 -38px;color:#4C4B4B}
+
+.fondomenu{
+	position:absolute;
+	width:945px;
+	height:44px;
+	top:160px;
+	background-image:url(../images/fondomenu.jpg);
+	background-repeat:repeat-x;
+}
+.contenido{position:absolute; top:385px}
+.texto{
+	position:absolute;
+	top:72px;
+	left:30px;
+	width:400px;
+	height:285px;
+	color:#4C4B4B;
+	font-size:15px;
+	font-family:'CaviarDreamsBold';
+	text-align:justify;
+}
+#txt_cirugias{
+	left:330px;
+	font-size:14px;
+	width:550px;
+	line-height: 19px;
+}
+#txt_cirugias2{
+	top:509px;
+	left:34px;
+	width:620px;
+	line-height: 19px;
+}
+#txt_nosotros{top:82px ;left:620px; width:302px;}
+#txt_nosotros2{
+	top:420px;
+	left:50px;
+	width:402px;
+}
+#txt_nosotros3{
+	top:446px;
+	left:620px;
+	width:302px;
+}
+#txt_nosotros4{
+	top:719px;
+	left:250px;
+	width:602px;
+}
+#txt_insemi{
+	top:69px;
+	left:15px;
+	width:352px;
+	line-height: 19px;
+}
+#txt_insemi2{
+	top:412px;
+	left:15px;
+	width:915px;
+	line-height: 19px;
+}
+#txt_farma{
+	top:101px;
+	left:2px;
+	width:941px;
+	line-height: 19px;
+}
+
+#txt_farmacia{
+	top:128px;
+	left:337px;
+	width:287px;
+	line-height: 19px;
+}
+
+#txt_farma2{
+	top:533px;
+	left:26px;
+	width:585px;
+	line-height: 19px;
+}
+#txt_farma3{
+	top:790px;
+	left:0px;
+	width:930px;
+	line-height: 19px;
+}
+#txt_farma4{
+	top:869px;
+	left:-1px;
+	width:394px;
+	line-height: 19px;
+}
+#txt_trans{top:500px ;left:0px; width:930px; line-height: 19px;}
+#txt_consul{top:100px ;left:600px; width:350px;  line-height: 19px; }
+#txt_consul2{top:380px ;left:0px; width:940px;  line-height: 19px; }
+#txt_rayos{
+	top:92px;
+	left:2px;
+	width:450px;
+	line-height: 19px;
+	color:#4C4B4B;
+	position: absolute;
+	font-family:'CaviarDreamsBold';
+}
+#txt_rayos2{top:775px ;left:440px; width:450px;  line-height: 19px; }
+
+
+.titulo{
+	position:absolute;
+	left:158px;
+	top:25px;
+	font-size:30px;
+	color:#0060FF;
+	font-family:'CaviarDreamsBold';
+	width: 425px;
+}
+#tit_cirugias{left:350px;top:10px}
+#tit_cirugias2{left:430px;top:420px}
+#tit_ofertas{
+	left:27px;
+	top:56px;
+	color:#444545
+}
+#tit_nosotros{left:830px;top:10px;}
+#tit_nosotros2{left:30px;top:365px;}
+#tit_nosotros3{
+	left:631px;
+	top:370px;
+}
+#tit_insemi{
+	left:63px;
+	top:20px;
+}
+#tit_farma{
+	left:339px;
+	top:18px;
+}
+#tit_farma50{
+	left:58px;
+	top:16px;
+}
+
+#tit_farma51{
+	position:absolute;
+	left:158px;
+	top:18px;
+	font-size:30px;
+	color:#0060FF;
+	font-family:'CaviarDreamsBold';
+	width: 425px;
+	left:13px;
+	top:407px;
+}
+
+#tit_farma52{
+	position:absolute;
+	left:158px;
+	top:18px;
+	font-size:30px;
+	color:#0060FF;
+	font-family:'CaviarDreamsBold';
+	width: 425px;
+	left:23px;
+	top:978px;
+}
+
+#tit_farma53{
+	position:absolute;
+	left:158px;
+	top:18px;
+	font-size:30px;
+	color:#0060FF;
+	font-family:'CaviarDreamsBold';
+	width: 425px;
+	left:134px;
+	top:445px;
+}
+
+
+#tit_farma2{left:20px;top:755px;font-size:18px}
+#tit_trans{
+	left:486px;
+	top:13px;
+	font-size:18px
+}
+#tit_consul{left:650px;top:25px;font-size:23px}
+#tit_cont{left:165px;top:25px;font-size:23px}
+#tit_rayos{
+	left:79px;
+	top:33px;
+	font-size:23px;
+	font-family:'CaviarDreamsBold'
+}
+#tit_rayos2{
+	left:605px;
+	top:747px;
+	font-size:23px
+}
+
+.caja{position:absolute; }
+#caja1{width:259px; height:366px; top:0px; left:0px; background-color:#FFCCCC}
+#caja2{width:660px; height:316px; top:50px; left:286px; background-color:#DAE1F1; }
+#caja3{width:275px; height:72px; top:400px; left:415px; background-color:#DAE1F1; }
+#caja4{width:259px; height:366px; top:400px; left:690px; background-color:#DAE1F1; }
+#caja5{width:134px; height:293px; top:0px; left:810px ;background-color:#DAE1F1; }
+#caja6{width:469px; height:185px; top:400px; left:20px ;background-color:#FFCCCC; }
+#caja7{width:348px; height:152px; top:435px; left:595px ;background-color:#DAE1F1; }
+#caja8{width:860px; height:172px; top:650px; left:0px ;background-color:#F3E8D4; }
+#caja9{
+	width:134px;
+	height:587px;
+	top:0px;
+	left:0px;
+	background-color:#DAE1F1;
+}
+#caja10{
+	width:632px;
+	height:690px;
+	top:44px;
+	left:0px;
+	background-color:#FFCCCC;
+}
+#caja11{width:452px; height:337px; top:0px; left:400px ;background-color:#FFCCCC; }
+#caja12{width:502px; height:30px; top:337px; left:0px ;background-color:#DAE1F1; }
+#caja12{width:502px; height:30px; top:337px; left:0px ;background-color:#DAE1F1; }
+#caja13{width:228px; height:59px; top:10px; left:223px ;background-color:#0060FF; }
+
+.izquierda{
+	position:relative;
+	float:left;
+	width:470px;
+	color:#545454;
+	top:130px;
+	border: 1;
+}
+.derecha{position:relative; float:right; width:480px;top:100px}
+
+#perro{
+	position:absolute;
+	top:439px;
+	left:666px;
+	width:291px;
+	height:295px;
+	color:#4C4B4B;
+	font-size:12px;
+	background-image: url(../images/perrito.png);
+	background-repeat: no-repeat;
+	float:right;
+}
+
+
+
+
+a{
+display: block;
+text-decoration: none;
+color: #a29f9f;
+padding: 5px;
+}
+ 
+ul{
+width: 945px;
+height: 28px;
+}
+ 
+ul,li{
+list-style: none;
+margin:0;
+padding:0;
+}
+ 
+#nav{
+font-family: 'Century Gothic', sans-serif;
+}
+ 
+#nav li{
+	float:left;
+	position: relative;
+	font-size: 10px;
+	font-variant: small-caps;
+}
+ 
+.submenu{
+display: none;
+position: absolute;
+left: -1px;
+border:none;
+height: 26px;
+background: none;
+z-index:1;
+width:105px;
+}
+ 
+#nav .submenu li{
+float: none;
+position: static;
+margin: 0;
+font-size: 11px;
+font-variant: normal;
+border: 1px solid #a29f9f;
+border-top: none;
+width: 124px;
+}
+ 
+#nav .submenu li a{
+color: #093C8A;
+background: #a29f9f url('../images/fondo_menu_vertical.png') repeat-x 0 0;
+width: 154px;
+height: 35px;
+}
+
+#nav .submenu li:hover a{color:#4C4B4B}
+
+
+
+
+
+
+
+
+
+
+
+.contact-area {
+	position:absolute;
+	color:#333;
+	top:117px;
+	left: 0px;
+	width: 1079px;
+	height: 350px;
+	
+}
+.contact-area h2 {
+    font-family: "lucida sans unicode","arial unicode ms",sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding: 0;
+}
+.contact-area .contact-detail {
+    background: none repeat scroll 0 0 #FFFFE6;
+    border: 1px solid #EBEBEB;
+    margin: 10px 0;
+    padding: 5px 0;
+}
+.contact-area .contact-detail p {
+    margin: 5px 0;
+    padding: 0 5px;
+    text-align: justify;
+}
+.contact-form {
+ 
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0px 0 #999999;
+    padding: 10px 20px;
+}
+.contact-form label {
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: 8px;
+    text-align: right;
+    text-shadow: 0 1px 0 #FFFFFF;
+    width: 80px;
+}
+.contact-form label small {
+    font-size: 0.8em;
+    font-weight: 100;
+}
+.contact-form textarea, .contact-form input.data {
+   
+    border-radius: 5px 5px 5px 5px;
+    margin: 0 0 8px;
+    padding: 10px;
+}
+.contact-form input.data {
+    
+    padding: 7px 6px;
+    width: 240px;
+}
+.contact-form .button {
+   
+    margin: 2px 0 0;
+    padding: 10px 0 0;
+    text-align:center;
+}
+.contact-form .button .boton-enviar {
+    
+    border: 0 none;
+    border-radius: 5px 5px 5px 5px;
+    color: #333;
+    cursor: pointer;
+    height: 30px;  
+    width: 150px;
+}
+.contact-form .button .boton-enviar:hover {
+    background: url("../images/bg-button.jpg") repeat-x scroll 0 -40px transparent;
+}
+
+#video1{
+	position:absolute;
+	left: 536px;
+	top: 169px;
+	width: 261px;
+	height: 134px;
+}
+
+#video2{
+	position:absolute;
+	left: 58px;
+	top: 421px;
+	width: 261px;
+	height: 400px;
+}
+
+#video3{
+	position:absolute;
+	left: 532px;
+	top: 421px;
+	width: 261px;
+	height: 134px;
+}
+
+.unopuntouno{
+}

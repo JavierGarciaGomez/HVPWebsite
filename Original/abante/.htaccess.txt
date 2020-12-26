@@ -1,0 +1,29 @@
+# 1. To use URL Aliases you need to be running apache with mod_rewrite enabled. 
+
+# 2. In your abantecart main directory rename file htaccess.txt to .htaccess
+
+# 3. Edit file .htaccess. If abantecart is installed in yourdomain/ subfolder change configuration line  RewriteBase /  to  RewriteBase /subfolder/.
+# Example:  yourdomain.com/store   use RewriteBase/store/ 
+# Important to have / at the end of the line.
+
+# 4. if htaccess and mode_rewrite still does not works - check and set apache2 webserver directive AllowOverride All for your virtual hosts
+
+# For any support issues please visit: http://forum.abantecart.com
+
+Options +FollowSymlinks
+
+# Prevent Directoy listing 
+Options -Indexes
+
+# Prevent Direct Access to files
+<FilesMatch "\.tpl">
+Order deny,allow
+Deny from all
+</FilesMatch>
+
+# SEO URL Settings
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)\?*$ index.php?_route_=$1 [L,QSA]

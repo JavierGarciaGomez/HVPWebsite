@@ -1,0 +1,277 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding:0;margin:0;border:none;} a{outline:none;text-decoration:none;} 
+html { min-height: 100%; margin-bottom: 1px; }
+
+body {
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#fff;
+	text-align: justify;
+	
+}
+
+
+
+.full{
+	position:absolute;
+	margin-left:auto;
+	margin-top:auto;
+	width:100%;
+	height:100%;
+	top: 0px;
+	left: 0px;
+}
+.contenedor{position:absolute;width:945px;height:780px;left:50%;top:0px;margin:0 auto;margin-left:-480px;text-align:justify;}
+.banner{position:absolute; top:14px;}
+.cabezera{position:absolute;width:945px;height:322px;left:0px;top:0px;overflow:hidden; text-align:justify;background-color: #FFF; }
+.franja{position:absolute; opacity:.2 ;  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Op acity=20)";  filter: alpha(opacity=20);}
+
+#uno{width:689px ;height:59px; top:253px; left:px; background-color:#FF0000;z-inde:1}
+#dos{width:343px ;height:322px; top:6px; left:347px; background-color:#486AB8;}
+#tres{width:441px ;height:293px; top:0px; left:px; background-color:#486AB8;}
+#cuatro{width:326px ;height:40px; top:15px; left:135px; background-color:#FF0000;}
+
+#cinco{width:860px ;height:293px; top:480px; left:0px; background-color:#C18C27;}
+#seis{width:652px ;height:72px; top:0px; left:0px; background-color:#C18C27;}
+#siete{width:279px ;height:43px; top:56px; left:0px; background-color:#FF0000;}
+#ocho{width:255px ;height:52px; top:39px; left:10px; background-color:#486AB8;}
+#nueve{width:349px ;height:287px; top:39px; left:595px; background-color:#C18C27;}
+#diez{width:117px ;height:270px; top:350px; left:0px; background-color:#C18C27;}
+#once{width:311px ;height:174px; top:360px; left:615px; background-color:#FF0000;}
+#doce{width:945px ;height:68px; top:700px; left:0px; background-color:#486AB8;}
+#trece{width:397px ;height:43px; top:10px; left:15px; background-color:#FF0000;}
+#catorce{width:653px ;height:107px; top:0px; left:288px; background-color:#C18C27;}
+#quince{width:345px ;height:460px; top:30px; left:0px; background-color:#FF0000;}
+#dieciseis{width:942px ;height:119px; top:360px; left:0px; background-color:#C18C27;}
+#diesisiete{width:326px ;height:40px; top:320px; left:0px; background-color:#C18C27;}
+#diesiocho{width:300px ;height:40px; top:20px; left:645px; background-color:#FF0000;}
+#diesinueve{width:300px ;height:60px; top:10px; left:600px; background-color:#486AB8;}
+
+#veintiuno{width:350px ;height:40px; top:20px; left:0px; background-color:#FF0000;}
+#veinte{width:641px ;height:393px; top:10px; left:0px; background-color:#486AB8;}
+
+.mainmenu{display:block;position:relative; top:178px; }
+
+
+.mainmenu ul li{background-position:right 0;margin:0 2px;height:28px}
+.mainmenu ul li a{margin-right:3px;text-align:center;color:#093C8A;font-size:11px;padding:5px 5px 0 12px;line-height:16px;height:28px;}
+
+.mainmenu ul li:hover,.mainmenu ul li#current{background-position:right -38px;cursor:pointer}
+.mainmenu ul li:hover a,.mainmenu ul li#current a{background-position:0 -38px;color:#4C4B4B}
+
+.fondomenu{position:absolute; width:945px; height:42px; top:160px; background-image:url(../images/fondomenu.jpg);background-repeat:repeat-x;}
+.contenido{position:absolute; top:385px}
+.texto{position:absolute; top:90px; left:10px; width:400px; height:250px; color:#4C4B4B; font-size:12px;}
+#txt_cirugias{left:330px; font-size:14px; width:550px}
+#txt_cirugias2{top:520px ;left:36px; width:620px;}
+#txt_nosotros{top:82px ;left:620px; width:302px;}
+#txt_nosotros2{top:430px ;left:50px; width:402px;}
+#txt_nosotros3{top:450px ;left:620px; width:302px;}
+#txt_nosotros4{top:730px ;left:250px; width:602px;}
+#txt_insemi{top:70px ;left:30px; width:352px; }
+#txt_insemi2{top:320px ;left:30px; width:915px; }
+#txt_farma{top:120px ;left:367px; width:240px; }
+#txt_farma2{top:550px ;left:28px; width:585px; }
+#txt_farma3{top:790px ;left:0px; width:930px; }
+#txt_farma4{top:850px ;left:0px; width:394px; }
+#txt_trans{top:500px ;left:0px; width:930px; line-height: 19px;}
+#txt_consul{top:100px ;left:600px; width:350px;  line-height: 19px; }
+#txt_consul2{top:380px ;left:0px; width:940px;  line-height: 19px; }
+
+
+
+
+.titulo{position:absolute; left:138px; top:17px; font-size:24px; color:#0060FF}
+#tit_cirugias{left:350px;top:10px}
+#tit_cirugias2{left:430px;top:420px}
+#tit_ofertas{left:40px;top:60px;color:#444545}
+#tit_nosotros{left:830px;top:10px;}
+#tit_nosotros2{left:30px;top:365px;}
+#tit_nosotros3{left:630px;top:365px;}
+#tit_insemi{left:140px;top:15px;}
+#tit_farma{left:340px;top:15px;}
+#tit_farma2{left:20px;top:755px;font-size:18px}
+#tit_trans{left:450px;top:25px;font-size:18px}
+#tit_consul{left:650px;top:25px;font-size:23px}
+#tit_cont{left:165px;top:25px;font-size:23px}
+
+.caja{position:absolute; }
+#caja1{width:259px; height:366px; top:0px; left:0px; background-color:#FFCCCC}
+#caja2{width:660px; height:316px; top:50px; left:286px; background-color:#DAE1F1; }
+#caja3{width:275px; height:72px; top:400px; left:415px; background-color:#DAE1F1; }
+#caja4{width:259px; height:366px; top:400px; left:690px; background-color:#DAE1F1; }
+#caja5{width:134px; height:293px; top:0px; left:810px ;background-color:#DAE1F1; }
+#caja6{width:469px; height:185px; top:400px; left:20px ;background-color:#FFCCCC; }
+#caja7{width:348px; height:152px; top:435px; left:595px ;background-color:#DAE1F1; }
+#caja8{width:860px; height:172px; top:650px; left:0px ;background-color:#F3E8D4; }
+#caja9{width:134px; height:493px; top:0px; left:0px ;background-color:#DAE1F1; }
+#caja10{width:632px; height:663px; top:60px; left:0px ;background-color:#FFCCCC; }
+#caja11{width:452px; height:337px; top:0px; left:400px ;background-color:#FFCCCC; }
+#caja12{width:502px; height:30px; top:337px; left:0px ;background-color:#DAE1F1; }
+
+
+
+.izquierda{position:relative; float:left; width:470px; color:#545454;top:130px}
+.derecha{position:relative; float:right; width:480px;top:100px}
+
+
+
+
+a{
+display: block;
+text-decoration: none;
+color: #a29f9f;
+padding: 5px;
+}
+ 
+ul{
+width: 945px;
+height: 28px;
+}
+ 
+ul,li{
+list-style: none;
+margin:0;
+padding:0;
+}
+ 
+#nav{
+font-family: 'Century Gothic', sans-serif;
+}
+ 
+#nav li{
+float:left;
+position: relative;
+width: 110px;
+font-size: 14px;
+font-variant: small-caps;
+
+}
+ 
+.submenu{
+display: none;
+position: absolute;
+left: -1px;
+border:none;
+height: 26px;
+background: none;
+z-index:1;
+width:105px;
+}
+ 
+#nav .submenu li{
+float: none;
+position: static;
+margin: 0;
+font-size: 11px;
+font-variant: normal;
+border: 1px solid #a29f9f;
+border-top: none;
+width: 124px;
+}
+ 
+#nav .submenu li a{
+color: #FFFFFF;
+background: #a29f9f url('../images/fondo_menu_vertical.png') repeat-x 0 0;
+width: 154px;
+height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.contact-area {
+	position:absolute;
+	color:#333;
+	top:117px;
+	left: 0px;
+	width: 1079px;
+	height: 350px;
+	
+}
+.contact-area h2 {
+    font-family: "lucida sans unicode","arial unicode ms",sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding: 0;
+}
+.contact-area .contact-detail {
+    background: none repeat scroll 0 0 #FFFFE6;
+    border: 1px solid #EBEBEB;
+    margin: 10px 0;
+    padding: 5px 0;
+}
+.contact-area .contact-detail p {
+    margin: 5px 0;
+    padding: 0 5px;
+    text-align: justify;
+}
+.contact-form {
+ 
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0px 0 #999999;
+    padding: 10px 20px;
+}
+.contact-form label {
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: 8px;
+    text-align: right;
+    text-shadow: 0 1px 0 #FFFFFF;
+    width: 80px;
+}
+.contact-form label small {
+    font-size: 0.8em;
+    font-weight: 100;
+}
+.contact-form textarea, .contact-form input.data {
+   
+    border-radius: 5px 5px 5px 5px;
+    margin: 0 0 8px;
+    padding: 10px;
+}
+.contact-form input.data {
+    
+    padding: 7px 6px;
+    width: 240px;
+}
+.contact-form .button {
+   
+    margin: 2px 0 0;
+    padding: 10px 0 0;
+    text-align:center;
+}
+.contact-form .button .boton-enviar {
+    
+    border: 0 none;
+    border-radius: 5px 5px 5px 5px;
+    color: #333;
+    cursor: pointer;
+    height: 30px;
+  
+    width: 150px;
+}
+.contact-form .button .boton-enviar:hover {
+    background: url("../images/bg-button.jpg") repeat-x scroll 0 -40px transparent;
+}
+
+
+
+
+
+
+
+

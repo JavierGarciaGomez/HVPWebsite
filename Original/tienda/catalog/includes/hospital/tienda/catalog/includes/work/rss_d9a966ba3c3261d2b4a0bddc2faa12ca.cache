@@ -1,0 +1,56 @@
+a:12:{s:8:"encoding";s:5:"UTF-8";s:5:"title";s:24:"osCommerce Contributions";s:4:"link";s:25:"http://www.oscommerce.com";s:11:"description";s:29:"osCommerce, Sell With Emotion";s:8:"language";s:2:"en";s:9:"copyright";s:29:"Copyright (c) 2010 osCommerce";s:14:"managingEditor";s:19:"hpdl@oscommerce.com";s:11:"image_title";s:10:"osCommerce";s:9:"image_url";s:53:"http://www.oscommerce.com/images/oscommerce_88x31.gif";s:10:"image_link";s:25:"http://www.oscommerce.com";s:5:"items";a:5:{i:0;a:4:{s:5:"title";s:17:"PayPal Pro Hosted";s:4:"link";s:38:"http://addons.oscommerce.com/info/8324";s:11:"description";s:186:"PayPal Website Payments Pro Hosted Unified module for UK Pro 2.0 &amp; Pro 3.0<br />
+<br />
+For installation &amp; configuration please refer to the readme.txt included with the package.";s:7:"pubDate";s:31:"Mon, 30 Jan 2012 07:04:50 -0500";}i:1;a:4:{s:5:"title";s:21:"Header Tags SEO V 3.0";s:4:"link";s:38:"http://addons.oscommerce.com/info/5851";s:11:"description";s:2623:"-&gt; Added google plusone code to the social bookmarks.<br />
+-&gt; Added images of Page Control to the contribution package to help understand it better.<br />
+-&gt; Added option to display text on the product listing page.<br />
+-&gt; Added option to display additional text on the product page.<br />
+-&gt; Added option to control showing the currently viewing link.<br />
+-&gt; Added option to display Header Tags title at top of each page.<br />
+-&gt; Added option to store keywords for use with other parts of Header Tags.<br />
+-&gt; Added social bookmarks for Article Manager pages (requires Article Manager to be installed). (My thanks to member JohnAtYM for his sugestion and code).<br />
+-&gt; Added social bookmarks for Information Pages pages (requires Information Pages to be installed).<br />
+-&gt; Added social bookmarks for Page Manager pages (requires Page manager to be installed).<br />
+-&gt; Added Tag Cloud code.<br />
+-&gt; Changed Fill Tags code to allow it to work for large databases.<br />
+-&gt; Changed View Result code so it now recognizes pseudo pages.<br />
+-&gt; Changed many database calls to be more secure.<br />
+-&gt; Changed how canonical code worked for the category pages since it was failing for some servers.<br />
+-&gt; Corrected xhtml mistakes in the &lt;head&gt; changes for 2.3 shops.<br />
+-&gt; Corrected the Install_Catalog.txt insructions for 2.3 shops.<br />
+-&gt; Corrected mistake in includes/functions/header_tags.php introduced in V 3.2.4 that prevented categories from being appended to the product page.<br />
+-&gt; Created an update install file that will make future updates easier.<br />
+-&gt; Created a new section in admin for handling keywords, including checking their position on google and adding them to the search results on the shop side.<br />
+-&gt; Fixed code in Page Control so a mising sort order entry causes a failure and doesn't allow the change.<br />
+-&gt; Fixed gzip cache so it updates correctly.<br />
+-&gt; Moved css to an external stylesheet.<br />
+-&gt; Moved the fill tags instructions to a popup file.<br />
+-&gt; Removed the deprecated type argument from the mysql files.<br />
+-&gt; Removed the mysql phpmyadmin-type install file from the contribution.<br />
+-&gt; Removed the option to use an html editor on the products meta tag description.<br />
+-&gt; Removed duplicate clean_html files.<br />
+-&gt; Removed the MS2 files.<br />
+-&gt; Removed all non-English language files.<br />
+<br />
+This is a full version.<br />
+<br />
+The support thread for Header Tags SEO is at<br />
+http://forums.oscommerce.com/index.php?showtopic=298099";s:7:"pubDate";s:31:"Mon, 02 Jan 2012 22:43:25 -0500";}i:2;a:4:{s:5:"title";s:18:"Modular Front Page";s:4:"link";s:38:"http://addons.oscommerce.com/info/7626";s:11:"description";s:456:"This is an attempt to fix the annoying language bug. The Specials, Text Main, and Upcoming Products modules have been updated. These modules should no longer show an error with additional languages installed. If the additional languages are formatted correctly and installed correctly, that is.<br />
+<br />
+If you are updating from an older version, uninstall these modules before uploading the new versions.<br />
+<br />
+As usual, this is a full package.";s:7:"pubDate";s:31:"Sun, 29 Jan 2012 21:28:22 -0500";}i:3;a:4:{s:5:"title";s:28:"Enhanced Contact Us for 2.3x";s:4:"link";s:38:"http://addons.oscommerce.com/info/8323";s:11:"description";s:1112:"I take no credit for this modification, all I have done is take the Contact-Us page from the Anti-Hacker-account-Mods by Spooks and made it work on 2.3.1.<br />
+<br />
+I hate looking at Contact Us Pages that only contain a web-based enquiry form, I like to know who and where the shop is. This change will provide a more professional look to the stock OSC Contact Us page, with enhanced functions.<br />
+<br />
+What It does:<br />
+<br />
+The Enhanced Contact Us page provides more information to the customer, such as Store Address, Telephone Number, Opening Hours, Anticipated Response Times Etc. (tailor these in the language files)<br />
+<br />
+Also, if the customer is logged in to their account, it pre-populates their email address and allows them to select a previous order to enquire about from a drop-down box.<br />
+<br />
+The email that is sent to the store contains the originators IP address, Date and time etc.<br />
+<br />
+Easy Installation - 1 New File + 2 Language file additions.<br />
+Screen shot included.<br />
+<br />
+Please feel free to Improve on this - but please only post Full Packages.";s:7:"pubDate";s:31:"Sun, 29 Jan 2012 08:27:08 -0500";}i:4;a:4:{s:5:"title";s:22:"Products Fields Groups";s:4:"link";s:38:"http://addons.oscommerce.com/info/8247";s:11:"description";s:124:"seems some of you had problems opening the previous ZIP so ive recreated it - it has the identical contents as the previous.";s:7:"pubDate";s:31:"Sun, 29 Jan 2012 07:31:46 -0500";}}s:11:"items_count";i:5;}
