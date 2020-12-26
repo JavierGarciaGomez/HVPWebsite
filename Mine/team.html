@@ -1,0 +1,388 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+
+
+
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <nav class="navbar">
+    <a class="logo" href="index.html"><img src="img/logoHVP.png" alt=""></a>
+    <a href="index.html">Inicio</a>
+    <a href="services.html">Servicios</a>
+    <a href="team.html">Equipo</a>
+    <a href="company.html">Empresa</a>
+    <a href="contact.html">Contacto</a>
+  </nav>
+
+  <div class="light-background">
+    <div class="container services-page">
+      <section>
+        <div class="section-title">
+          <div class="icon-container">
+            <img src="icons/dog.png" alt="">
+          </div>
+          <h2 class="title">Nuestro equipo</h2>
+          <div class="icon-container">
+            <img src="icons/cat.png" alt="">
+          </div>
+        </div>
+
+        <div class="team-item primary">
+          <h3>Rafael García</h3>
+          <h4>Director médico</h4>
+          <div class="team-content">
+            <div class="team-img">
+              <img src="img/collaborators/RGL.png" alt="">
+            </div>
+            <div class="team-text">
+              <p>Potenti penatibus netus morbi neque praesent ullamcorper faucibus magnis ante, non ad senectus purus
+                ornare dui aliquam donec placerat, accumsan ultrices convallis ridiculus pretium a commodo vitae. Primis
+                at tincidunt nulla himenaeos malesuada placerat per, netus faucibus condimentum mattis nascetur vel
+                morbi iaculis, velit inceptos nunc elementum purus ornare. Bibendum porta pharetra gravida vivamus
+                penatibus habitant semper sed iaculis, nostra sociosqu pulvinar fermentum ridiculus conubia nisi
+                pellentesque maecenas, pretium lectus quis nunc habitasse dictumst leo sollicitudin.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-item secondary">
+          <h3>Adriana García</h3>
+          <h4>Directora administrativa</h4>
+          <div class="team-content">
+            <div class="team-img">
+              <img src="img/collaborators/ADG.png" alt="">
+            </div>
+            <div class="team-text">
+              <p>Potenti penatibus netus morbi neque praesent ullamcorper faucibus magnis ante, non ad senectus purus
+                ornare dui aliquam donec placerat, accumsan ultrices convallis ridiculus pretium a commodo vitae. Primis
+                at tincidunt nulla himenaeos malesuada placerat per, netus faucibus condimentum mattis nascetur vel
+                morbi iaculis, velit inceptos nunc elementum purus ornare. Bibendum porta pharetra gravida vivamus
+                penatibus habitant semper sed iaculis, nostra sociosqu pulvinar fermentum ridiculus conubia nisi
+                pellentesque maecenas, pretium lectus quis nunc habitasse dictumst leo sollicitudin.</p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="team-item primary">
+          <h3>Adrián Aguilar</h3>
+          <h4>Gerente</h4>
+          <div class="team-content">
+            <div class="team-img">
+              <img src="img/collaborators/AAA.png" alt="">
+            </div>
+            <div class="team-text">
+              <p>Potenti penatibus netus morbi neque praesent ullamcorper faucibus magnis ante, non ad senectus purus
+                ornare dui aliquam donec placerat, accumsan ultrices convallis ridiculus pretium a commodo vitae. Primis
+                at tincidunt nulla himenaeos malesuada placerat per, netus faucibus condimentum mattis nascetur vel
+                morbi iaculis, velit inceptos nunc elementum purus ornare. Bibendum porta pharetra gravida vivamus
+                penatibus habitant semper sed iaculis, nostra sociosqu pulvinar fermentum ridiculus conubia nisi
+                pellentesque maecenas, pretium lectus quis nunc habitasse dictumst leo sollicitudin.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-item secondary">
+          <h3>Néstor Delgado</h3>
+          <h4>Veterinario</h4>
+          <div class="team-content">
+            <div class="team-img">
+              <img src="img/collaborators/NDC.png" alt="">
+            </div>
+            <div class="team-text">
+              <p>Potenti penatibus netus morbi neque praesent ullamcorper faucibus magnis ante, non ad senectus purus
+                ornare dui aliquam donec placerat, accumsan ultrices convallis ridiculus pretium a commodo vitae. Primis
+                at tincidunt nulla himenaeos malesuada placerat per, netus faucibus condimentum mattis nascetur vel
+                morbi iaculis, velit inceptos nunc elementum purus ornare. Bibendum porta pharetra gravida vivamus
+                penatibus habitant semper sed iaculis, nostra sociosqu pulvinar fermentum ridiculus conubia nisi
+                pellentesque maecenas, pretium lectus quis nunc habitasse dictumst leo sollicitudin.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-item primary">
+          <h3>Lulú Avendaño</h3>
+          <h4>Veterinaria</h4>
+          <div class="team-content">
+            <div class="team-img">
+              <img src="img/collaborators/MAT.png" alt="">
+            </div>
+            <div class="team-text">
+              <p>Potenti penatibus netus morbi neque praesent ullamcorper faucibus magnis ante, non ad senectus purus
+                ornare dui aliquam donec placerat, accumsan ultrices convallis ridiculus pretium a commodo vitae. Primis
+                at tincidunt nulla himenaeos malesuada placerat per, netus faucibus condimentum mattis nascetur vel
+                morbi iaculis, velit inceptos nunc elementum purus ornare. Bibendum porta pharetra gravida vivamus
+                penatibus habitant semper sed iaculis, nostra sociosqu pulvinar fermentum ridiculus conubia nisi
+                pellentesque maecenas, pretium lectus quis nunc habitasse dictumst leo sollicitudin.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-item secondary">
+          <h3>Anahí Fuentes</h3>
+          <h4>Veterinaria</h4>
+          <div class="team-content">
+            <div class="team-img">
+              <img src="img/collaborators/LFP.png" alt="">
+            </div>
+            <div class="team-text">
+              <p>Potenti penatibus netus morbi neque praesent ullamcorper faucibus magnis ante, non ad senectus purus
+                ornare dui aliquam donec placerat, accumsan ultrices convallis ridiculus pretium a commodo vitae. Primis
+                at tincidunt nulla himenaeos malesuada placerat per, netus faucibus condimentum mattis nascetur vel
+                morbi iaculis, velit inceptos nunc elementum purus ornare. Bibendum porta pharetra gravida vivamus
+                penatibus habitant semper sed iaculis, nostra sociosqu pulvinar fermentum ridiculus conubia nisi
+                pellentesque maecenas, pretium lectus quis nunc habitasse dictumst leo sollicitudin.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-item primary">
+          <h3>José Luis López</h3>
+          <h4>Veterinario</h4>
+          <div class="team-content">
+            <div class="team-img">
+              <img src="img/collaborators/JLP.png" alt="">
+            </div>
+            <div class="team-text">
+              <p>Potenti penatibus netus morbi neque praesent ullamcorper faucibus magnis ante, non ad senectus purus
+                ornare dui aliquam donec placerat, accumsan ultrices convallis ridiculus pretium a commodo vitae. Primis
+                at tincidunt nulla himenaeos malesuada placerat per, netus faucibus condimentum mattis nascetur vel
+                morbi iaculis, velit inceptos nunc elementum purus ornare. Bibendum porta pharetra gravida vivamus
+                penatibus habitant semper sed iaculis, nostra sociosqu pulvinar fermentum ridiculus conubia nisi
+                pellentesque maecenas, pretium lectus quis nunc habitasse dictumst leo sollicitudin.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-item secondary">
+          <h3>Cecilia Muñoz</h3>
+          <h4>Recepcionista</h4>
+          <div class="team-content">
+            <div class="team-img">
+              <img src="img/collaborators/CME.png" alt="">
+            </div>
+            <div class="team-text">
+              <p>Potenti penatibus netus morbi neque praesent ullamcorper faucibus magnis ante, non ad senectus purus
+                ornare dui aliquam donec placerat, accumsan ultrices convallis ridiculus pretium a commodo vitae. Primis
+                at tincidunt nulla himenaeos malesuada placerat per, netus faucibus condimentum mattis nascetur vel
+                morbi iaculis, velit inceptos nunc elementum purus ornare. Bibendum porta pharetra gravida vivamus
+                penatibus habitant semper sed iaculis, nostra sociosqu pulvinar fermentum ridiculus conubia nisi
+                pellentesque maecenas, pretium lectus quis nunc habitasse dictumst leo sollicitudin.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-item primary">
+          <h3>Larissa Franco</h3>
+          <h4>Recepcionista</h4>
+          <div class="team-content">
+            <div class="team-img">
+              <img src="img/collaborators/IFP.png" alt="">
+            </div>
+            <div class="team-text">
+              <p>Potenti penatibus netus morbi neque praesent ullamcorper faucibus magnis ante, non ad senectus purus
+                ornare dui aliquam donec placerat, accumsan ultrices convallis ridiculus pretium a commodo vitae. Primis
+                at tincidunt nulla himenaeos malesuada placerat per, netus faucibus condimentum mattis nascetur vel
+                morbi iaculis, velit inceptos nunc elementum purus ornare. Bibendum porta pharetra gravida vivamus
+                penatibus habitant semper sed iaculis, nostra sociosqu pulvinar fermentum ridiculus conubia nisi
+                pellentesque maecenas, pretium lectus quis nunc habitasse dictumst leo sollicitudin.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-item secondary">
+          <h3>Andrés Nah</h3>
+          <h4>Recepcionista</h4>
+          <div class="team-content">
+            <div class="team-img">
+              <img src="img/collaborators/ANV.png" alt="">
+            </div>
+            <div class="team-text">
+              <p>Potenti penatibus netus morbi neque praesent ullamcorper faucibus magnis ante, non ad senectus purus
+                ornare dui aliquam donec placerat, accumsan ultrices convallis ridiculus pretium a commodo vitae. Primis
+                at tincidunt nulla himenaeos malesuada placerat per, netus faucibus condimentum mattis nascetur vel
+                morbi iaculis, velit inceptos nunc elementum purus ornare. Bibendum porta pharetra gravida vivamus
+                penatibus habitant semper sed iaculis, nostra sociosqu pulvinar fermentum ridiculus conubia nisi
+                pellentesque maecenas, pretium lectus quis nunc habitasse dictumst leo sollicitudin.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-item primary">
+          <h3>Saraí Delgado</h3>
+          <h4>Recepcionista</h4>
+          <div class="team-content">
+            <div class="team-img">
+              <img src="img/collaborators/SDI.png" alt="">
+            </div>
+            <div class="team-text">
+              <p>Potenti penatibus netus morbi neque praesent ullamcorper faucibus magnis ante, non ad senectus purus
+                ornare dui aliquam donec placerat, accumsan ultrices convallis ridiculus pretium a commodo vitae. Primis
+                at tincidunt nulla himenaeos malesuada placerat per, netus faucibus condimentum mattis nascetur vel
+                morbi iaculis, velit inceptos nunc elementum purus ornare. Bibendum porta pharetra gravida vivamus
+                penatibus habitant semper sed iaculis, nostra sociosqu pulvinar fermentum ridiculus conubia nisi
+                pellentesque maecenas, pretium lectus quis nunc habitasse dictumst leo sollicitudin.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-item secondary">
+          <h3>Silvia Colmenares</h3>
+          <h4>Recepcionista</h4>
+          <div class="team-content">
+            <div class="team-img">
+              <img src="img/collaborators/SCP.png" alt="">
+            </div>
+            <div class="team-text">
+              <p>Potenti penatibus netus morbi neque praesent ullamcorper faucibus magnis ante, non ad senectus purus
+                ornare dui aliquam donec placerat, accumsan ultrices convallis ridiculus pretium a commodo vitae. Primis
+                at tincidunt nulla himenaeos malesuada placerat per, netus faucibus condimentum mattis nascetur vel
+                morbi iaculis, velit inceptos nunc elementum purus ornare. Bibendum porta pharetra gravida vivamus
+                penatibus habitant semper sed iaculis, nostra sociosqu pulvinar fermentum ridiculus conubia nisi
+                pellentesque maecenas, pretium lectus quis nunc habitasse dictumst leo sollicitudin.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-item primary">
+          <h3>Atziri Caamañ</h3>
+          <h4>Recepcionista</h4>
+          <div class="team-content">
+            <div class="team-img">
+              <img src="img/collaborators/ACB.png" alt="">
+            </div>
+            <div class="team-text">
+              <p>Potenti penatibus netus morbi neque praesent ullamcorper faucibus magnis ante, non ad senectus purus
+                ornare dui aliquam donec placerat, accumsan ultrices convallis ridiculus pretium a commodo vitae. Primis
+                at tincidunt nulla himenaeos malesuada placerat per, netus faucibus condimentum mattis nascetur vel
+                morbi iaculis, velit inceptos nunc elementum purus ornare. Bibendum porta pharetra gravida vivamus
+                penatibus habitant semper sed iaculis, nostra sociosqu pulvinar fermentum ridiculus conubia nisi
+                pellentesque maecenas, pretium lectus quis nunc habitasse dictumst leo sollicitudin.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-item secondary">
+          <h3>Óscar Moo</h3>
+          <h4>Recepcionista</h4>
+          <div class="team-content">
+            <div class="team-img">
+              <img src="img/collaborators/OMH.png" alt="">
+            </div>
+            <div class="team-text">
+              <p>Potenti penatibus netus morbi neque praesent ullamcorper faucibus magnis ante, non ad senectus purus
+                ornare dui aliquam donec placerat, accumsan ultrices convallis ridiculus pretium a commodo vitae. Primis
+                at tincidunt nulla himenaeos malesuada placerat per, netus faucibus condimentum mattis nascetur vel
+                morbi iaculis, velit inceptos nunc elementum purus ornare. Bibendum porta pharetra gravida vivamus
+                penatibus habitant semper sed iaculis, nostra sociosqu pulvinar fermentum ridiculus conubia nisi
+                pellentesque maecenas, pretium lectus quis nunc habitasse dictumst leo sollicitudin.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-item primary">
+          <h3>Felipe Dávalos</h3>
+          <h4>Recepcionista</h4>
+          <div class="team-content">
+            <div class="team-img">
+              <img src="img/collaborators/FDC.png" alt="">
+            </div>
+            <div class="team-text">
+              <p>Potenti penatibus netus morbi neque praesent ullamcorper faucibus magnis ante, non ad senectus purus
+                ornare dui aliquam donec placerat, accumsan ultrices convallis ridiculus pretium a commodo vitae. Primis
+                at tincidunt nulla himenaeos malesuada placerat per, netus faucibus condimentum mattis nascetur vel
+                morbi iaculis, velit inceptos nunc elementum purus ornare. Bibendum porta pharetra gravida vivamus
+                penatibus habitant semper sed iaculis, nostra sociosqu pulvinar fermentum ridiculus conubia nisi
+                pellentesque maecenas, pretium lectus quis nunc habitasse dictumst leo sollicitudin.</p>
+            </div>
+          </div>
+        </div>
+
+
+
+      </section>
+    </div>
+  </div>
+
+
+  <footer class="site-footer">
+    <p>Made by Javier García</p>
+    <div class="social-author">
+      <ul id="social-ul">
+        <li><a href="https://www.linkedin.com/in/javier-garcia-gomez/" target="_blank"><i
+              class="fab fa-linkedin"></i></a></li>
+        <li><a href="mailto:javieron.garcia@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+        </li>
+        <li><a href="https://github.com/JavierGarciaGomez" target="_blank"><i class="fab fa-github"></i></a>
+        </li>
+        <li><a href="https://codepen.io/javier-garc-a-g-mez" target="_blank"><i class="fab fa-codepen"></i></a>
+        </li>
+        <li><a href="https://www.freecodecamp.org/javiergarcia" target="_blank"><i
+              class="fab fa-free-code-camp"></i></a>
+        </li>
+        <li><a href="https://www.facebook.com/javierongarcia" target="_blank"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li><a href="https://twitter.com/javierongarcia" target="_blank"><i class="fab fa-twitter"></i></a>
+        </li>
+      </ul>
+    </div>
+
+  </footer>
+
+
+
+
+
+
+
+
+
+  <!-- My scripts -->
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/412daea0ea.js" crossorigin="anonymous"></script>
+  <!-- HTML Boilerplate scripts -->
+  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+
+  <script src="js/plugins.js"></script>
+  <!--LEAF  -->
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+
+</body>
+
+</html>
