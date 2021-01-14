@@ -1,0 +1,263 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Hospital Veterinario Peninsular</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- icon -->
+  <link rel="icon" href="icons/icon.bmp">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="img/logoHVP_bluebg.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          <a class="nav-link" href="advices.html">Blog y consejos</a>
+          <a class="nav-link" href="services.html">Servicios</a>
+          <a class="nav-link" href="team.html">Equipo</a>
+          <a class="nav-link" href="company.html">Empresa</a>
+          <a class="nav-link" href="contact.html">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="dark-background">
+    <div class="container">
+      <section>
+        <div class="section-title">
+          <div class="icon-container">
+            <img src="icons/dog.png" alt="">
+          </div>
+          <h2 class="title">Blog</h2>
+          <div class="icon-container">
+            <img src="icons/cat.png" alt="">
+          </div>
+        </div>
+        <div>
+          <article class="blog-post">
+            <div class="blog-img">
+              <img
+                src="https://shandree.files.wordpress.com/2018/04/calupoh-el-espectacular-perro-lobo-de-mc3a9xico-1.png?w=640"
+                alt="Blog">
+            </div>
+            <div class="text-post">
+              <a href="https://shandree.wordpress.com/2018/04/19/calupoh-perro-lobo-mexicano/" target="_blank">
+                <h4>CALUPOH PERRO LOBO DE MÉXICO ESTÁNDAR RACIAL</h4>
+              </a>
+              <p>Escrito el: <span>19/04/2018</span> por: <span>Dr. Rafael García</span></p>
+              <p>El perro lobo de México surge como un hibridismo entre el perro y el lobo gris que se llevó a cabo en
+                el
+                México prehispánico desde inicios de nuestra era hasta el siglo XVI. Esta práctica fue posible debido a
+                la
+                enorme similitud genética entre ambas especies y, gracias a un intenso trabajo arqueo-zoológico, fue
+                posible identificar al primer ejemplar en 1999... <a
+                  href="https://shandree.wordpress.com/2018/04/19/calupoh-perro-lobo-mexicano/">Continúa leyendo</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="blog-post">
+            <div class="blog-img">
+              <img src="https://shandree.files.wordpress.com/2018/03/fcm-cert-estudios-rx-e1521918181553.jpg?w=640"
+                alt="Blog">
+            </div>
+            <div class="text-post">
+              <a href="https://shandree.wordpress.com/2018/03/24/certificacion-para-estudios-de-rayos-x/"
+                target="_blank">
+                <h4>Certificación para Estudios de Rayos X</h4>
+              </a>
+              <p>Escrito el: <span>19/04/2018</span> por: <span>Dr. Rafael García</span></p>
+              <p>La Federación Canófila Mexicana extiende el presente Certificado para los estudios radiológicos en los
+                casos de Displasia de Cadera, Displasia de codo y Luxación patelar... <a
+                  href="https://shandree.wordpress.com/2018/03/24/certificacion-para-estudios-de-rayos-x/"
+                  target="_blank">Continúa leyendo</a> </p>
+            </div>
+          </article>
+
+          <article class="blog-post">
+            <div class="blog-img">
+              <img src="https://shandree.files.wordpress.com/2017/10/estudio-de-nombre-2.jpg?w=640&h=478" alt="Blog">
+            </div>
+            <div class="text-post">
+              <a href="https://shandree.wordpress.com/2017/10/20/nombres-para-perros-mas-populares-en-espana/"
+                target="_blank">
+                <h4>Nombres para perros mas populares en España</h4>
+              </a>
+              <p>Escrito el: <span>20/10/2017</span> por: <span>Dr. Rafael García</span></p>
+              <p>A continuación les compartimos un estudio realizado en España con los nombres mas populares de perros,
+                Disfrútenlo y compartanlo sirve para ver que tanto nos parecemos en pensamiento como canofilos con
+                nuestros hermanos de España.... <a
+                  href="https://shandree.wordpress.com/2017/10/20/nombres-para-perros-mas-populares-en-espana/"
+                  target="_blank">Continúa leyendo</a> </p>
+            </div>
+          </article>
+        </div>
+        <div class="d-flex justify-content-center blog-btn">
+          <a href="https://shandree.wordpress.com/" target="_blank"><button type="button"
+              class="btn btn-lg btn-primaryBG">Lea más artículos del Blog</button></a>
+        </div>
+
+
+      </section>
+    </div>
+
+    <div class="light-background">
+      <div class="container">
+        <section>
+          <div class="section-title">
+            <div class="icon-container">
+              <img src="icons/dog.png" alt="">
+            </div>
+            <h2 class="title">Videoconsejos para mascotas</h2>
+            <div class="icon-container">
+              <img src="icons/cat.png" alt="">
+            </div>
+          </div>
+          <div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-interval="false">
+              <ol class="carousel-indicators">
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <iframe
+                    src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FVideoconsejosParatuMascota%2Fvideos%2F412337669812407%2F&show_text=false&width=560"
+                    width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                    allowFullScreen="true"></iframe>
+                </div>
+                <div class="carousel-item">
+                  <iframe
+                    src="https://www.facebook.com/plugins/video.php?height=420&href=https%3A%2F%2Fwww.facebook.com%2FVideoconsejosParatuMascota%2Fvideos%2F285936789338346%2F&show_text=false&width=560"
+                    width="560" height="420" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                    allowFullScreen="true"></iframe>
+                </div>
+                <div class="carousel-item">
+                  <iframe
+                    src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FVideoconsejosParatuMascota%2Fvideos%2F557986751518628%2F&show_text=false&width=560"
+                    width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                    allowFullScreen="true"></iframe>
+                </div>
+                <div class="carousel-item">
+                  <iframe
+                    src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FVideoconsejosParatuMascota%2Fvideos%2F172548350706812%2F&show_text=false&width=560"
+                    width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                    allowFullScreen="true"></iframe>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </a>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center blog-btn">
+            <a href="https://www.facebook.com/VideoconsejosParatuMascota" target="_blank"><button type="button"
+                class="btn btn-lg btn-primaryBG">Conoce videoconsejos para tu mascota</button></a>
+          </div>
+
+
+        </section>
+      </div>
+
+
+
+      <footer class="site-footer">
+        <p>Made by Javier García</p>
+        <div class="social-author">
+          <ul id="social-ul">
+            <li><a href="https://www.linkedin.com/in/javier-garcia-gomez/" target="_blank"><i
+                  class="fab fa-linkedin"></i></a></li>
+            <li><a href="mailto:javieron.garcia@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+            </li>
+            <li><a href="https://github.com/JavierGarciaGomez" target="_blank"><i class="fab fa-github"></i></a>
+            </li>
+            <li><a href="https://codepen.io/javier-garc-a-g-mez" target="_blank"><i class="fab fa-codepen"></i></a>
+            </li>
+            <li><a href="https://www.freecodecamp.org/javiergarcia" target="_blank"><i
+                  class="fab fa-free-code-camp"></i></a>
+            </li>
+            <li><a href="https://www.facebook.com/javierongarcia" target="_blank"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li><a href="https://twitter.com/javierongarcia" target="_blank"><i class="fab fa-twitter"></i></a>
+            </li>
+          </ul>
+        </div>
+
+      </footer>
+
+
+
+
+
+
+
+
+
+      <!-- My scripts -->
+      <!-- Font Awesome -->
+      <script src="https://kit.fontawesome.com/412daea0ea.js" crossorigin="anonymous"></script>
+      <!-- Bootstrap -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+      <!-- HTML Boilerplate scripts -->
+      <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+
+      <script src="js/plugins.js"></script>
+      <!--LEAF  -->
+      <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+      <script src="js/main.js"></script>
+
+      <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+      <script>
+        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+      </script>
+      <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+
+</body>
+
+</html>
