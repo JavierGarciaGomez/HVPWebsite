@@ -1,0 +1,431 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Hospital Veterinario Peninsular</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- icon -->
+  <link rel="icon" href="icons/icon.bmp">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="img/logoHVP_bluebg.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          <a class="nav-link" href="advices.html">Blog y consejos</a>
+          <a class="nav-link" href="services.html">Servicios</a>
+          <a class="nav-link" href="team.html">Equipo</a>
+          <a class="nav-link" href="company.html">Empresa</a>
+          <a class="nav-link" href="contact.html">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header class="main-header">
+    <div class="header-content">
+      <h1>Hospital Veterinario Peninsular</h1>
+      <nav class="socialNav">
+        <a href="https://www.facebook.com/HospitalVeterinarioPeninsular" target="_blank"><i
+            class="fab fa-facebook-f"></i></a>
+        <a href="https://www.youtube.com/channel/UCmlztTxVkVxaNS-PdDMQmBA" target="_blank"><i
+            class="fab fa-youtube"></i></a>
+        <a href="https://www.instagram.com/hospitalveterinariopeninsular" target="_blank"><i
+            class="fab fa-instagram"></i></a>
+      </nav>
+      <h2>El <span class="blue-text">especialista</span> en cuestión siempre es la mejor <span
+          class="blue-text">opción</span> </h2>
+    </div>
+  </header>
+
+
+  <div class="container">
+    <section class="characteristics-section">
+      <div class="section-title">
+        <div class="icon-container">
+          <img src="icons/dog.png" alt="">
+        </div>
+        <h2 class="title">Lo que nos distingue</h2>
+        <div class="icon-container">
+          <img src="icons/cat.png" alt="">
+        </div>
+      </div>
+
+      <div class="characteristics">
+        <div class="characteristic">
+          <div class="char-img">
+            <img src="img/char-personal.png" alt="">
+          </div>
+          <div class="char-title">
+            <h3>Personalizado</h3>
+          </div>
+          <div class="char-text">
+            <p>El seguimiento que damos cada uno de nuestros pacientes es personalizado y acorde con sus necesidades.
+            </p>
+          </div>
+        </div>
+        <div class="characteristic">
+          <div class="char-img">
+            <img src="img/char-experience.png" alt="">
+          </div>
+          <div class="char-title">
+            <h3>Experiencia</h3>
+          </div>
+          <div class="char-text">
+            <p>Tenemos 30 años de experiencia en veterinaria, por lo que somos un referente en Mérida y en todo el
+              sureste.
+            </p>
+          </div>
+        </div>
+        <div class="characteristic">
+          <div class="char-img">
+            <img src="img/char-specialist.png" alt="">
+          </div>
+          <div class="char-title">
+            <h3>Especialidad</h3>
+          </div>
+          <div class="char-text">
+            <p>Nuestros médicos son especializados en oftalmología y prestamos servicios relacionados en otras
+              especialidades.
+            </p>
+          </div>
+        </div>
+        <div class="characteristic">
+          <div class="char-img">
+            <img src="img/char-coverage.png" alt="">
+          </div>
+          <div class="char-title">
+            <h3>Cobertura</h3>
+          </div>
+          <div class="char-text">
+            <p>Contamos con tres sucursales, todas en las tiendas Petco en la ciudad de Mérida.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="dark-background">
+    <div class="container">
+      <section>
+        <div class="section-title">
+          <div class="icon-container">
+            <img src="icons/dog.png" alt="">
+          </div>
+          <h2 class="title">Promociones</h2>
+          <div class="icon-container">
+            <img src="icons/cat.png" alt="">
+          </div>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/promo/promo1.jpg" class="d-block" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/promo/promo2.jpg" class="d-block" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/promo/promo3.jpg" class="d-block" alt="...">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
+        </div>
+
+      </section>
+    </div>
+  </div>
+
+
+
+  <div class="container">
+    <section>
+      <div class="section-title">
+        <div class="icon-container">
+          <img src="icons/dog.png" alt="">
+        </div>
+        <h2 class="title">Quiénes somos</h2>
+        <div class="icon-container">
+          <img src="icons/cat.png" alt="">
+        </div>
+      </div>
+      <div class="collaborators">
+        <div class="collaborator">
+          <img src="img/collaborators/RGL.png" alt="colaborador">
+          <div class="coll-name">
+            <p>Rafael García <span class="position">Director médico</span></p>
+          </div>
+        </div>
+        <div class="collaborator">
+          <img src="img/collaborators/ADG.png" alt="colaborador">
+          <div class="coll-name">
+            <p>Adriana García <span class="position">Directora admninistrativa</span></p>
+          </div>
+        </div>
+        <div class="collaborator">
+          <img src="img/collaborators/AAA.png" alt="colaborador">
+          <div class="coll-name">
+            <p>Adrián Aguilar <span class="position">Gerente</span></p>
+          </div>
+        </div>
+        <div class="collaborator">
+          <img src="img/collaborators/NDC.png" alt="colaborador">
+          <div class="coll-name">
+            <p>Néstor Delgado <span class="position">Veterinario</span></p>
+          </div>
+        </div>
+        <div class="collaborator">
+          <img src="img/collaborators/MAT.png" alt="colaborador">
+          <div class="coll-name">
+            <p>Lulú Avendaño <span class="position">Veterinaria</span></p>
+          </div>
+        </div>
+        <div class="collaborator">
+          <img src="img/collaborators/LFP.png" alt="colaborador">
+          <div class="coll-name">
+            <p>Anahí Fuentes <span class="position">Veterinaria</span></p>
+          </div>
+        </div>
+        <div class="collaborator">
+          <img src="img/collaborators/JLP.png" alt="colaborador">
+          <div class="coll-name">
+            <p>José Luis López <span class="position">Veterinaria</span></p>
+          </div>
+        </div>
+        <div class="collaborator">
+          <img src="img/collaborators/CME.png" alt="colaborador">
+          <div class="coll-name">
+            <p>Cecilia Muñoz <span class="position">Asistente</span></p>
+          </div>
+        </div>
+        <div class="collaborator">
+          <img src="img/collaborators/IFP.png" alt="colaborador">
+          <div class="coll-name">
+            <p>Larissa Franco <span class="position">Asistente</span></p>
+          </div>
+        </div>
+        <div class="collaborator">
+          <img src="img/collaborators/ANV.png" alt="colaborador">
+          <div class="coll-name">
+            <p>Andrés Nah <span class="position">Asistente</span></p>
+          </div>
+        </div>
+        <div class="collaborator">
+          <img src="img/collaborators/SDI.png" alt="colaborador">
+          <div class="coll-name">
+            <p>Saraí Delgado <span class="position">Asistente</span></p>
+          </div>
+        </div>
+        <div class="collaborator">
+          <img src="img/collaborators/SCP.png" alt="colaborador">
+          <div class="coll-name">
+            <p>Silvia Colmenares <span class="position">Recepcionista</span></p>
+          </div>
+        </div>
+        <div class="collaborator">
+          <img src="img/collaborators/ACB.png" alt="colaborador">
+          <div class="coll-name">
+            <p>Atziri Caamal <span class="position">Recepcionista</span></p>
+          </div>
+        </div>
+        <div class="collaborator">
+          <img src="img/collaborators/OMH.png" alt="colaborador">
+          <div class="coll-name">
+            <p>Óscar Moo <span class="position">Recepcionista</span></p>
+          </div>
+        </div>
+        <div class="collaborator">
+          <img src="img/collaborators/FDC.png" alt="colaborador">
+          <div class="coll-name">
+            <p>Felipe Dávalos <span class="position">Recepcionista</span></p>
+          </div>
+        </div>
+    </section>
+  </div>
+
+  <div class="dark-background">
+    <div class="container">
+      <section>
+        <div class="section-title">
+          <div class="icon-container">
+            <img src="icons/dog.png" alt="">
+          </div>
+          <h2 class="title">Servicios</h2>
+          <div class="icon-container">
+            <img src="icons/cat.png" alt="">
+          </div>
+        </div>
+
+        <div class="services">
+          <div class="service">
+            <img src="img/services/consulta.jpg" alt="">
+            <p>Consultas</p>
+          </div>
+          <div class="service">
+            <img src="img/services/vaccine.jpg" alt="">
+            <p>Vacunas</p>
+          </div>
+          <div class="service">
+            <img src="img/services/desp.jpg" alt="">
+            <p>Desparasitaciones</p>
+          </div>
+          <div class="service">
+            <img src="img/services/lab.jpg" alt="">
+            <p>Laboratorio</p>
+          </div>
+          <div class="service">
+            <img src="img/services/surgery.jpg" alt="">
+            <p>Cirugía</p>
+          </div>
+          <div class="service">
+            <img src="img/services/pedig.jpg" alt="">
+            <p>Pedigrí</p>
+          </div>
+
+        </div>
+        <div class="d-flex justify-content-center">
+          <a href="services.html"><button type="button" class="btn btn-lg btn-primaryBG">Conozca más</button></a>
+        </div>
+
+      </section>
+    </div>
+  </div>
+
+  <div class="container">
+    <section>
+      <div class="section-title">
+        <div class="icon-container">
+          <img src="icons/dog.png" alt="">
+        </div>
+        <h2 class="title">Contacto</h2>
+        <div class="icon-container">
+          <img src="icons/cat.png" alt="">
+        </div>
+      </div>
+  </div>
+
+  <div class="container">
+    <div>
+      <div id="mapa"></div>
+    </div>
+    <div class="branches">
+      <div class="branch">
+        <h3>Urban</h3>
+        <p><i class="fas fa-phone"></i> 999 406 9174</p>
+        <p> <i class="fab fa-whatsapp-square"></i> 999 510 1404</p>
+        <p><i class="fas fa-thumbtack"></i> Av. Cámara de Comercio 215, Monterreal</p>
+      </div>
+      <div class="branch">
+        <h3>The Harbor</h3>
+        <p><i class="fas fa-phone"></i> 999 925 0015</p>
+        <p><i class="fas fa-thumbtack"></i> Calle 60 261, Zona Industrial</p>
+      </div>
+      <div class="branch">
+        <h3>Montejo</h3>
+        <p><i class="fas fa-phone"></i> 999 400 7974</p>
+        <p><i class="fas fa-thumbtack"></i> Prol. Paseo Montejo 99, Campestre</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <footer class="site-footer">
+    <p>Made by Javier García</p>
+    <div class="social-author">
+      <ul id="social-ul">
+        <li><a href="https://www.linkedin.com/in/javier-garcia-gomez/" target="_blank"><i
+              class="fab fa-linkedin"></i></a></li>
+        <li><a href="mailto:javieron.garcia@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+        </li>
+        <li><a href="https://github.com/JavierGarciaGomez" target="_blank"><i class="fab fa-github"></i></a>
+        </li>
+        <li><a href="https://codepen.io/javier-garc-a-g-mez" target="_blank"><i class="fab fa-codepen"></i></a>
+        </li>
+        <li><a href="https://www.freecodecamp.org/javiergarcia" target="_blank"><i
+              class="fab fa-free-code-camp"></i></a>
+        </li>
+        <li><a href="https://www.facebook.com/javierongarcia" target="_blank"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li><a href="https://twitter.com/javierongarcia" target="_blank"><i class="fab fa-twitter"></i></a>
+        </li>
+      </ul>
+    </div>
+
+  </footer>
+
+
+
+
+
+
+
+
+
+  <!-- My scripts -->
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/412daea0ea.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+  <!-- HTML Boilerplate scripts -->
+  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+
+  <script src="js/plugins.js"></script>
+  <!--LEAF  -->
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+
+</body>
+
+</html>

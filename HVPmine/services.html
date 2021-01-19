@@ -1,0 +1,343 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Hospital Veterinario Peninsular</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- icon -->
+  <link rel="icon" href="icons/icon.bmp">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+
+
+
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="img/logoHVP_bluebg.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          <a class="nav-link" href="advices.html">Blog y consejos</a>
+          <a class="nav-link" href="services.html">Servicios</a>
+          <a class="nav-link" href="team.html">Equipo</a>
+          <a class="nav-link" href="company.html">Empresa</a>
+          <a class="nav-link" href="contact.html">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="dark-background">
+    <div class="container">
+      <section>
+        <div class="section-title">
+          <div class="icon-container">
+            <img src="icons/dog.png" alt="">
+          </div>
+          <h2 class="title">Promociones</h2>
+          <div class="icon-container">
+            <img src="icons/cat.png" alt="">
+          </div>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/promo/promo1.jpg" class="d-block" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/promo/promo2.jpg" class="d-block" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/promo/promo3.jpg" class="d-block" alt="...">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="light-background">
+    <div class="container services-page">
+      <section>
+        <div class="section-title">
+          <div class="icon-container">
+            <img src="icons/dog.png" alt="">
+          </div>
+          <h2 class="title">Servicios</h2>
+          <div class="icon-container">
+            <img src="icons/cat.png" alt="">
+          </div>
+        </div>
+
+        <div class="service-list">
+          <div class="service-item primary">
+            <div class="service-image">
+              <img src="img/services/consulta.jpg" alt="">
+            </div>
+            <div class="service-content">
+              <h3> Consultas </h3>
+              <p>Nuestra especialidad es la medicina canina y la felina, pero también podemos atender a las
+                mascotas exóticas. Nuestro propósito es esforzarnos para que tanto las mascotas se encuentren saludables
+                y
+                los propietarios tránquilos.
+              </p>
+              <div class="d-flex justify-content-center">
+                <a href="consultas.html"><button type="button" class="btn btn-sm btn-primaryBG">Ver más</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="service-item secondary">
+            <div class="service-image">
+              <img src="img/services/vaccine.jpg" alt="">
+            </div>
+            <div class="service-content">
+              <h3> Vacunas </h3>
+              <p>El plan de vacunación de las mascotas es de vital importancia pues con este se genera la
+                inmunidad
+                frente a enfermedades recurrentes que pueden causar estragos en su salud.</p>
+            </div>
+          </div>
+
+          <div class="service-item secondary">
+            <div class="service-image">
+              <img src="img/services/desp.jpg" alt="">
+            </div>
+            <div class="service-content">
+              <h3> Desparasitaciones </h3>
+              <p>Las desparasitaciones pueden ser internas o externas, y en ambos casos es importante aplicarlas
+                cotidianamente, para prevenir que los parásitos causen daños mayores al organismo de nuestras
+                mascotas.
+              </p>
+            </div>
+          </div>
+
+          <div class="service-item primary">
+            <div class="service-image">
+              <img src="img/services/lab.jpg" alt="">
+            </div>
+            <div class="service-content">
+              <h3> Laboratorio </h3>
+              <p>Para servicios de diagnóstico clínico contamos con pruebas de laboratorio, biometrías hemáticas,
+                químicas sanguíneas, coprológicos, histopatologías y pruebas de gabinete como rayos X,
+                ultrasonido,
+                ecocardiogramas, electrocardiogramas, etc., para un diagnóstico y pronostico certero.</p>
+              <div class="d-flex justify-content-center">
+                <a href="laboratorio.html"><button type="button" class="btn btn-sm btn-primaryBG">Ver más</button></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="service-item primary">
+            <div class="service-image">
+              <img src="img/services/surgery.jpg" alt="">
+            </div>
+            <div class="service-content">
+              <h3> Cirugía </h3>
+              <p>Con gran profesionalidad y ética podremos realizar cirugía mayores y menores, contamos con un
+                quirófano
+                plenamente equipado y las anestesias son mediante oxígeno, con lo que se obtienen mejores
+                resultados.
+              </p>
+              <div class="d-flex justify-content-center">
+                <a href="cirugias.html"><button type="button" class="btn btn-sm btn-primaryBG">Ver más</button></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="service-item secondary">
+            <div class="service-image">
+              <img src="img/services/pedig.jpg" alt="">
+            </div>
+            <div class="service-content">
+              <h3> Trámites Federación Canófila Mexicana </h3>
+              <p>Somos inspectores oficiales de la Federación Canófila Mexicana desde 1996, realizando trámites
+                como el
+                pedigrí, el certificado de pureza racial así como certificados para concursos y registro de
+                socios.</p>
+            </div>
+          </div>
+
+          <div class="service-item secondary">
+            <div class="service-image">
+              <img src="img/services/esteril.jpg" alt="">
+            </div>
+            <div class="service-content">
+              <h3> Esterilizaciones </h3>
+              <p>La esterilización, más allá de prevenir la reproducción de nuestras mascotas, pues se previene
+                que
+                puedan contraer enfermedades como es el cáncer de mama, de matriz, de próstata y de testículos;
+                así como
+                la piometra; y en muchos casos se mejora el comportamiento de los machos.</p>
+            </div>
+          </div>
+
+          <div class="service-item primary">
+            <div class="service-image">
+              <img src="img/services/insemin.jpg" alt="">
+            </div>
+            <div class="service-content">
+              <h3> Inseminación artificial </h3>
+              <p>Este servicio, ha cobrado mucha popularidad en nuestros días, pues la causa más común de
+                infertilidad
+                se debe a problemas conductuales (la hembra no se deja montar) y la Inseminación es la mejor
+                opción para
+                corregir el problema.</p>
+            </div>
+          </div>
+
+          <div class="service-item primary">
+            <div class="service-image">
+              <img src="img/services/certificate.jpg" alt="">
+            </div>
+            <div class="service-content">
+              <h3> Certificados de salud para viajes </h3>
+              <p>Los certificados de salud son testimonios escritos expedidos por un profesional en la que se
+                constatan
+                hechos relacionados con la salud de las mascotas. En muchos casos estos documentos son requeridos
+                por
+                las autoridades para permitir a estas realizar un viaje.</p>
+            </div>
+          </div>
+
+          <div class="service-item secondary">
+            <div class="service-image">
+              <img src="img/services/profilax.jpg" alt="">
+            </div>
+            <div class="service-content">
+              <h3> Profilaxis dental </h3>
+              <p>La profilaxis es una intervención para la limpieza dental de las mascotas que ayuda a desprender
+                el
+                sarro y la placa bacteriana, con lo que se previenen diversas enfermedades, incluso aquellas
+                relacionadas con el corazón.</p>
+            </div>
+          </div>
+
+          <div class="service-item secondary">
+            <div class="service-image">
+              <img src="img/services/microchip.jpg" alt="">
+            </div>
+            <div class="service-content">
+              <h3> Microchip internacional </h3>
+              <p>En muchos países es obligatorio que los perros cuenten con un microchip, lo que sirve para
+                identificarlos. Los microchips contienen información importante sobre la mascota, en particular la
+                relacionada con el dueño para poder contactarla en caso de extravío o accidente.</p>
+            </div>
+          </div>
+
+          <div class="service-item primary">
+            <div class="service-image">
+              <img src="img/services/catarata.jpg" alt="">
+            </div>
+            <div class="service-content">
+              <h3> Cirugía de cataratas </h3>
+              <p>Somos un referente en el sureste mexicano en oftalmología y en cirugía de cataras, debido a que
+                contamos con equipamiento de vanguardia y profesionales en esta área médica.</p>
+              <div class="d-flex justify-content-center">
+                <a href="cataratas.html"><button type="button" class="btn btn-sm btn-primaryBG">Ver más</button></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+
+  <footer class="site-footer">
+    <p>Made by Javier García</p>
+    <div class="social-author">
+      <ul id="social-ul">
+        <li><a href="https://www.linkedin.com/in/javier-garcia-gomez/" target="_blank"><i
+              class="fab fa-linkedin"></i></a></li>
+        <li><a href="mailto:javieron.garcia@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+        </li>
+        <li><a href="https://github.com/JavierGarciaGomez" target="_blank"><i class="fab fa-github"></i></a>
+        </li>
+        <li><a href="https://codepen.io/javier-garc-a-g-mez" target="_blank"><i class="fab fa-codepen"></i></a>
+        </li>
+        <li><a href="https://www.freecodecamp.org/javiergarcia" target="_blank"><i
+              class="fab fa-free-code-camp"></i></a>
+        </li>
+        <li><a href="https://www.facebook.com/javierongarcia" target="_blank"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li><a href="https://twitter.com/javierongarcia" target="_blank"><i class="fab fa-twitter"></i></a>
+        </li>
+      </ul>
+    </div>
+
+  </footer>
+
+
+
+
+  <!-- My scripts -->
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/412daea0ea.js" crossorigin="anonymous"></script>
+  <!-- HTML Boilerplate scripts -->
+  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+
+  <script src="js/plugins.js"></script>
+  <!--LEAF  -->
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+
+</body>
+
+</html>
