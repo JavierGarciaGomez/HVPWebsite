@@ -135,6 +135,7 @@ html {
 /* GENERAL */
 body {
   background-color: var(--primaryColor);
+  font-family: var(--primaryFont);
   margin: 0;
 }
 
@@ -260,6 +261,18 @@ section {
 .btn-primaryBG:hover {
   color: var(--secondaryColor);
   background-color: var(--primaryDarkColor);
+}
+
+.btn-secondaryBG {
+  color: var(--secondaryColor);
+  background-color: var(--primaryDarkColor);
+  border-color: var(--primaryColor);
+  transition: all 1s;
+}
+
+.btn-secondaryBG:hover {
+  color: var(--primaryDarkColor);
+  background-color: var(--secondaryColor);
 }
 
 /* NAV */
@@ -630,6 +643,11 @@ section {
   color: green;
 }
 
+.branch p {
+  color: var(--primaryColor);
+  margin: 1rem 0;
+}
+
 @media (min-width: 768px) {
   .branch {
     padding: 1rem;
@@ -694,13 +712,15 @@ section {
   flex-basis: 40%;
 }
 
-.text-post h4 {
-  text-transform: uppercase;
-}
-
 .text-post {
   flex-basis: calc(60% - 3rem);
   text-align: justify;
+}
+
+.text-post h4 {
+  text-transform: uppercase;
+  margin: 0 0;
+  line-height: 1.4;
 }
 
 .text-post a {
@@ -708,9 +728,9 @@ section {
   text-decoration: none;
 }
 
-.text-post h4 {
-  margin: 0 0;
-  line-height: 1.4;
+.text-post h4,
+.text-post p {
+  color: var(--primaryColor);
 }
 
 .text-post h4::after {
@@ -870,21 +890,26 @@ section {
   text-align: center;
 }
 
-.company-page p {
-  padding-top: 2rem;
+.section-text h3 {
   color: var(--secondaryColor);
   width: 75%;
-  margin: 0 auto;
+  margin: 0.5rem auto;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.section-text p {
+  color: var(--secondaryColor);
+  width: 75%;
+  margin: 0.5rem auto;
   font-size: 1.5rem;
+  text-align: justify;
 }
 
 /* ************************************************************************************************ */
 /* SPECIFIC PAGES */
 /* ************************************************************************************************ */
-
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
 
 .service-only-container {
   display: flex;
@@ -897,7 +922,12 @@ section {
   text-align: center;
   font-size: 30px;
   float: none;
-  padding: 0 2rem 2rem 0;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.service-only-image img {
+  margin: auto;
 }
 
 .service-only-text {
@@ -914,9 +944,20 @@ section {
   .service-only-image {
     width: 50%;
     float: left;
+    padding: 0 2rem 2rem 0;
   }
 }
 
+.list {
+  display: inline-block;
+  list-style: square;
+  padding-left: 1rem;
+  margin-left: 1rem;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
 /*
 * Hide only visually, but have it available for screen readers:
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility

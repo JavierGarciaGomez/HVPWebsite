@@ -1,0 +1,211 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Hospital Veterinario Peninsular</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- icon -->
+  <link rel="icon" href="icons/icon.bmp">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="img/logoHVP_bluebg.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="advices.html">Blog y consejos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <div class="btn-group">
+                <a class="nav-link" href="services.html">
+                  Servicios
+                </a>
+                <a class="nav-link dropdown-toggle dropdown-toggle-split" href="services.html" id="navbarDropdown"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="visually-hidden">Toggle Dropdown</span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="consultas.html">Consultas</a></li>
+                  <li><a class="dropdown-item" href="laboratorio.html">Laboratorio</a></li>
+                  <li><a class="dropdown-item" href="cirugias.html">Cirugías</a></li>
+                  <li><a class="dropdown-item" href="pedig.html">Registro de camadas FCM</a></li>
+                  <li><a class="dropdown-item" href="insemin.html">Inseminación artificial</a></li>
+                  <li><a class="dropdown-item" href="cataratas.html">Cirugía de cataratas</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="team.html">Equipo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="company.html">Empresa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="light-background">
+    <div class="container">
+      <section>
+        <div class="section-title">
+          <div class="icon-container">
+            <img src="icons/dog.png" alt="">
+          </div>
+          <h2 class="title">Registro de Camadas FCM</h2>
+          <div class="icon-container">
+            <img src="icons/cat.png" alt="">
+          </div>
+        </div>
+
+        <div class="service-only-container">
+          <div class="service-only-image">
+            <img src="img/services/pedig.jpg" alt="">
+          </div>
+          <div class="service-only-text">
+            <p>Este servicio es previa cita, no es una urgencia, hay que presentar la documentación respectiva para
+              realizar el trámite que corresponda, somos inspectores oficiales de la Federación Canófila Mexicana con
+              sede en el D.F. desde 1996, cuyo teléfono es el 01 555 655 9330 y en internet:www.fcm.org.mx Ud. podrá
+              verificar la legitimidad correspondiente. En el caso de registros iniciales llamados C.P.R. (Certificado
+              de Pureza Racial) es necesario presentar a su mascota a inspección y deberá ser de raza pura para tener
+              derecho a su certificación. Cuando se trate de una camada, ésta deberá estar completa, no es posible
+              registrar cachorros de una misma camada de manera individual. Toda la documentación deberá presentarse y
+              tramitarse de manera completa. Es necesario ser Socio F.C.M. para realizar cualquier trámite; por lo tanto
+              si es la primera vez que inicia un trámite, lo primero que hará, será inscribirse como socio usufructuario
+              a la Federación Canófila Mexicana. Todo esto lo puede hacer con nosotros, llámenos y le asesoraremos con
+              gusto.</p>
+            <p>Registrar a su ejemplar tiene como finalidad:</p>
+
+            <ul class="list">
+              <li>Dar valor a las crias</li>
+              <li>Conocer quién es el criador, el propietario y la línea de sangre</li>
+              <li>Contar con 2 identificaciones permanentes (tatuaje y microchip)</li>
+              <li>Permite exhibirlo en todos los eventos que programa la FCM</li>
+              <li>Contar con su certificado de registro que funciona como acta de nacimiento y como titulo de propiedad
+                y
+                respaldo legal.</li>
+              <li> Conocer los datos del ejemplar como son: títulos, nombre del ejemplar, raza o variedad, color, sexo,
+                fecha y
+                lugar de nacimiento, Num. de registro F.C.M, observaciones y calificaciones de displasia.</li>
+              <li></li>
+            </ul>
+
+            <p>En cuanto a sus antecedentes (padres, abuelos y bisabuelos) podemos conocer cuáles son los títulos,
+              campeonatos y certificaciones (de conformación, trabajo, asistencia, deporte) con que cuentan. Nombre, No.
+              De registro, color, procedencia nacional o extranjera, etc. Todo esto para poder mantener o mejorar la
+              raza, evitando así la consanguinidad y los defectos y enfermedades hereditarias. Al analizar toda esta
+              información podemos darnos una idea más clara de lo que tenemos y podemos lograr.</p>
+            <p>En cuanto a registros (acta de nacimiento), existen tres tipos. 1.- El Certificado de Pureza Racial
+              (CPR), se otorga a cualquier ejemplar de raza pura, pero que se desconoce alguno o algunos de sus
+              antecedentes (padres, abuelos o bisabuelos). Es de color café y válido solo en México. Puede ser CPR
+              inicial (sin genealogí,a conocida) y CPR con antecedentes. 2.- El Certificado Genealógico; se otorga a los
+              ejemplares que ya han completado las 3 generaciones de padres, abuelos y bisabuelos, y que en su registro
+              aparecen ejemplares con uno o varios números de certificado de pureza racial; es de color verde y válido
+              solo en México. 3.- El Certificado de Pedigree Internacional, se otorga a ejemplares con antecedentes bien
+              conocidos, hijos de ejemplares con certificado de pedigree, en cuyo registro únicamente aparecen números
+              FCM. Es de color azul y tiene validez internacional.</p>
+            <p>También brindamos el servicio de gestión de tramites como: Asesoría Pago de cuotas de socio usufructuario
+              o de criadero, transferencias (cambio de propietario), Revalidaciones (reconocimiento de los pedigrees de
+              otros países), Activación del microchip FCM en el sistema LOCA_CAN, Duplicados de registros de pedigree,
+              genealógico o de pureza racial, Registros extemporáneos, Remarcación de tatuajes, Contamos con papelería
+              oficial de la FCM Escaneo y Lectura de microchips etc. Cualquier otro trámite que requiera lo podrá
+              realizar con nosotros, previa cita, la idea es minimizar el tiempo de espera.</p>
+          </div>
+        </div>
+        <div class="return-div">
+          <a href="" onclick="window.history.go(-1); return false;"> <button type="button"
+              class="btn btn-lg btn-primaryBG"> ◀ Regresar</button> </a>
+        </div>
+
+      </section>
+    </div>
+  </div>
+
+
+  <footer class="site-footer">
+    <p>Made by Javier García</p>
+    <div class="social-author">
+      <ul id="social-ul">
+        <li><a href="https://www.linkedin.com/in/javier-garcia-gomez/" target="_blank"><i
+              class="fab fa-linkedin"></i></a></li>
+        <li><a href="mailto:javieron.garcia@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+        </li>
+        <li><a href="https://github.com/JavierGarciaGomez" target="_blank"><i class="fab fa-github"></i></a>
+        </li>
+        <li><a href="https://codepen.io/javier-garc-a-g-mez" target="_blank"><i class="fab fa-codepen"></i></a>
+        </li>
+        <li><a href="https://www.freecodecamp.org/javiergarcia" target="_blank"><i
+              class="fab fa-free-code-camp"></i></a>
+        </li>
+        <li><a href="https://www.facebook.com/javierongarcia" target="_blank"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li><a href="https://twitter.com/javierongarcia" target="_blank"><i class="fab fa-twitter"></i></a>
+        </li>
+      </ul>
+    </div>
+
+  </footer>
+
+
+
+
+  <!-- My scripts -->
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/412daea0ea.js" crossorigin="anonymous"></script>
+  <!-- HTML Boilerplate scripts -->
+  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+
+  <script src="js/plugins.js"></script>
+  <!--LEAF  -->
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+
+</body>
+
+</html>

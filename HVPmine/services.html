@@ -34,7 +34,7 @@
 
   <!-- Add your site or application content here -->
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html"><img src="img/logoHVP_bluebg.png" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -43,12 +43,42 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-          <a class="nav-link" href="advices.html">Blog y consejos</a>
-          <a class="nav-link" href="services.html">Servicios</a>
-          <a class="nav-link" href="team.html">Equipo</a>
-          <a class="nav-link" href="company.html">Empresa</a>
-          <a class="nav-link" href="contact.html">Contacto</a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="advices.html">Blog y consejos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <div class="btn-group">
+                <a class="nav-link" href="services.html">
+                  Servicios
+                </a>
+                <a class="nav-link dropdown-toggle dropdown-toggle-split" href="services.html" id="navbarDropdown"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="visually-hidden">Toggle Dropdown</span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="consultas.html">Consultas</a></li>
+                  <li><a class="dropdown-item" href="laboratorio.html">Laboratorio</a></li>
+                  <li><a class="dropdown-item" href="cirugias.html">Cirugías</a></li>
+                  <li><a class="dropdown-item" href="pedig.html">Registro de camadas FCM</a></li>
+                  <li><a class="dropdown-item" href="insemin.html">Inseminación artificial</a></li>
+                  <li><a class="dropdown-item" href="cataratas.html">Cirugía de cataratas</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="team.html">Equipo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="company.html">Empresa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contacto</a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -189,11 +219,13 @@
               <img src="img/services/pedig.jpg" alt="">
             </div>
             <div class="service-content">
-              <h3> Trámites Federación Canófila Mexicana </h3>
+              <h3> Registro de Camadas FCM </h3>
               <p>Somos inspectores oficiales de la Federación Canófila Mexicana desde 1996, realizando trámites
-                como el
-                pedigrí, el certificado de pureza racial así como certificados para concursos y registro de
+                como el pedigrí, el certificado de pureza racial así como certificados para concursos y registro de
                 socios.</p>
+              <div class="d-flex justify-content-center">
+                <a href="pedig.html"><button type="button" class="btn btn-sm btn-secondaryBG">Ver más</button></a>
+              </div>
             </div>
           </div>
 
@@ -222,7 +254,11 @@
                 se debe a problemas conductuales (la hembra no se deja montar) y la Inseminación es la mejor
                 opción para
                 corregir el problema.</p>
+              <div class="d-flex justify-content-center">
+                <a href="insemin.html"><button type="button" class="btn btn-sm btn-primaryBG">Ver más</button></a>
+              </div>
             </div>
+
           </div>
 
           <div class="service-item primary">
