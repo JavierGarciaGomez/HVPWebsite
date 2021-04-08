@@ -104,10 +104,10 @@ textarea {
 /* UNIVERSAL */
 
 :root {
-  --primaryColor: #260d6d;
-  --secondaryColor: #7aaffa;
-  --primaryDarkColor: #0d0425;
-  --terciaryColor: #7aaffa;
+  --primaryColor: #0e368d;
+  --secondaryColor: #44d9e6;
+  --primaryDarkColor: #031948;
+  --terciaryColor: #44d9e6;
 
   --primaryFont: "Lato";
   --secondaryFont: "Russo One";
