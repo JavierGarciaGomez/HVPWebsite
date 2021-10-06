@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Russo+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 /*! HTML5 Boilerplate v7.3.0 | MIT License | https://html5boilerplate.com/ */
 
@@ -101,25 +101,26 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
 /* UNIVERSAL */
 
 :root {
-  --primaryColor: #0e368d;
-  --secondaryColor: #44d9e6;
-  --primaryDarkColor: #031948;
-  --terciaryColor: #44d9e6;
 
-  --primaryFont: "Lato";
-  --secondaryFont: "Russo One";
-  --fontPTSans: "PT Sans";
+  --primaryColor: #5583A7;
+  --secondaryColor: white;
+  --primaryDarkColor: #acd1ec;
+  --terciaryColor: #7aaffa;
+
+  --primaryFont: 'Lato';
+  --secondaryFont: 'Russo One';
+  --fontPTSans: 'PT Sans';
   --orange: #fe4918;
   --darkGrey: #353535;
 }
 
 html {
   box-sizing: border-box;
-  font-family: var(--primaryFont), "Franklin Gothic Medium", "Arial Narrow",
-    Arial, sans-serif;
+  font-family: var(--primaryFont), 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 *,
@@ -132,10 +133,10 @@ html {
   border: red 1px solid;
 } */
 
+
 /* GENERAL */
 body {
   background-color: var(--primaryColor);
-  font-family: var(--primaryFont);
   margin: 0;
 }
 
@@ -197,7 +198,7 @@ img {
 }
 
 .section-title {
-  margin: 0 2rem 2rem 2rem;
+  margin: 5rem 2rem;
   color: var(--secondaryColor);
   display: flex;
   justify-content: center;
@@ -217,8 +218,7 @@ img {
 /* UTILITIES */
 
 section {
-  margin: 0 auto;
-  padding: 3rem 0;
+  margin: 4rem auto;
 }
 
 .container {
@@ -252,28 +252,18 @@ section {
   filter: brightness(0.7);
 }
 
-.btn-primaryBG {
+.btn-primaryBG{
   color: var(--primaryDarkColor);
   background-color: var(--secondaryColor);
   border-color: var(--secondaryColor);
 }
 
-.btn-primaryBG:hover {
+.btn-primaryBG:hover{
   color: var(--secondaryColor);
   background-color: var(--primaryDarkColor);
+  
 }
 
-.btn-secondaryBG {
-  color: var(--secondaryColor);
-  background-color: var(--primaryDarkColor);
-  border-color: var(--primaryColor);
-  transition: all 1s;
-}
-
-.btn-secondaryBG:hover {
-  color: var(--primaryDarkColor);
-  background-color: var(--secondaryColor);
-}
 
 /* NAV */
 
@@ -283,24 +273,26 @@ section {
   display: flex;
   flex-direction: column;
   width: 100%;
+
 }
 
 .custom-navbar img {
   display: none;
 }
 
-.navbar {
-  background-color: var(--primaryColor) !important;
+.navbar{
+  background-color: var(--primaryColor)!important;
 }
 
 .navbar a img {
   height: 5vh;
 }
 
-.navbar-brand {
+.navbar-brand{
   padding-top: 0;
   padding-bottom: 0;
 }
+
 
 .custom-navbar a {
   color: white;
@@ -317,6 +309,7 @@ section {
 .custom-navbar a:hover {
   background-color: var(--primaryColor);
 }
+
 
 @media (min-width: 768px) {
   .custom-navbar {
@@ -369,6 +362,7 @@ section {
   right: 0;
 }
 
+
 .socialNav {
   position: relative;
   top: 4rem;
@@ -390,13 +384,14 @@ section {
   margin: 0;
   top: 4rem;
   position: relative;
-  font-family: "Fredoka One", cursive;
+  font-family: 'Fredoka One', cursive;
   color: white;
   font-size: 2.5rem;
   text-align: center;
 }
 
 .main-header h2 {
+
   display: block;
   font-family: var(--fontPTSans);
   max-width: 70%;
@@ -437,10 +432,12 @@ section {
 /* CHARACTERISTICS */
 /* ************************************************************************************************ */
 
+
 .characteristics {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
 }
 
 .characteristic {
@@ -461,7 +458,7 @@ section {
   text-transform: uppercase;
   font-size: 1.25rem;
   font-family: var(--secondaryFont);
-  color: var(--primaryColor);
+  color: var(--primaryColor)
 }
 
 .characteristic p {
@@ -474,25 +471,29 @@ section {
 @media (min-width: 768px) {
   .characteristic {
     flex: 0 0 calc(25% - 1rem);
+
   }
 }
+
 
 /* ************************************************************************************************ */
 /* PROMO */
 /* ************************************************************************************************ */
 .dark-background {
   background-color: var(--primaryDarkColor);
+  padding: 1em 0;
 }
 
 .light-background {
   background-color: var(--primaryColor);
+  padding: 1em 0;
 }
 
-.carousel {
+.carousel {  
   margin: 0 auto;
 }
 
-.carousel img {
+.carousel img{
   margin: 0 auto;
   height: 90vh;
   width: auto;
@@ -559,6 +560,7 @@ section {
 .collaborator:hover p {
   bottom: -6rem;
   opacity: 0;
+
 }
 
 @media (min-width: 768px) {
@@ -603,9 +605,11 @@ section {
   }
 
   .service p {
+
     font-size: 1.5rem;
   }
 }
+
 
 /* ************************************************************************************************ */
 /* CONTACTO */
@@ -641,11 +645,7 @@ section {
 
 .branch i {
   color: green;
-}
 
-.branch p {
-  color: var(--primaryColor);
-  margin: 1rem 0;
 }
 
 @media (min-width: 768px) {
@@ -655,14 +655,16 @@ section {
   }
 }
 
+
 /* ************************************************************************************************ */
 /* FOOTER */
 /* ************************************************************************************************ */
 .site-footer {
-  background-color: black;
+  background-color: #acd1ec;
   color: white;
   padding: 0.66em;
   text-align: center;
+
 }
 
 #social-ul {
@@ -694,12 +696,13 @@ section {
   }
 }
 
+
 /* ************************************************************************************************ */
 /* ADVISES PAGE */
 /* ************************************************************************************************ */
 
 /* Bottom section */
-.blog-post {
+.blog-post{
   display: flex;
   justify-content: space-between;
   margin: 3em 0;
@@ -708,33 +711,31 @@ section {
   padding: 0.5em;
 }
 
-.blog-img {
-  flex-basis: 40%;
+.blog-img{
+  flex-basis: 40%;  
 }
 
-.text-post {
+.text-post h4{
+  text-transform:uppercase;
+}
+
+.text-post{    
   flex-basis: calc(60% - 3rem);
   text-align: justify;
 }
 
-.text-post h4 {
-  text-transform: uppercase;
-  margin: 0 0;
-  line-height: 1.4;
-}
-
-.text-post a {
+.text-post a{
   color: var(--primaryDarkColor);
   text-decoration: none;
 }
 
-.text-post h4,
-.text-post p {
-  color: var(--primaryColor);
+.text-post h4{  
+  margin: 0 0;
+  line-height: 1.4;
 }
 
-.text-post h4::after {
-  content: "";
+.text-post h4::after{
+  content:'';
   display: block;
   width: 15rem;
   height: 0.5rem;
@@ -742,19 +743,32 @@ section {
   margin-top: 1rem;
 }
 
-.text-post span {
+.text-post span{
   color: white;
 }
 
-.carousel iframe {
+.carousel iframe{
   margin: auto auto;
   width: 100%;
   height: 90vh;
+  
 }
 
 /* ************************************************************************************************ */
 /* SERVICES PAGE */
 /* ************************************************************************************************ */
+.services-page {
+  padding-top: 1rem;
+}
+
+.services-page section {
+  margin-top: 0;
+}
+
+.services-page .section-title {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
 
 .service-list {
   display: flex;
@@ -805,6 +819,14 @@ section {
 }
 
 @media (min-width: 768px) {
+  .services-page {
+    padding-top: 2rem;
+  }
+
+  .services-page section {
+    margin-top: 4rem;
+  }
+
   .service-list {
     justify-content: space-around;
   }
@@ -824,6 +846,7 @@ section {
   .service-content h3 {
     font-size: 1.8vw;
   }
+
 }
 
 /* ************************************************************************************************ */
@@ -864,7 +887,7 @@ section {
   margin: 0 auto;
 }
 
-.team-content .team-text {
+.team-content .team-text{
   text-align: justify;
 }
 
@@ -890,74 +913,47 @@ section {
   text-align: center;
 }
 
-.section-text h3 {
+.company-page p {
+  padding-top: 2rem;
   color: var(--secondaryColor);
   width: 75%;
-  margin: 0.5rem auto;
-  font-size: 2rem;
-  font-weight: bolder;
-  text-transform: uppercase;
-}
-
-.section-text p {
-  color: var(--secondaryColor);
-  width: 75%;
-  margin: 0.5rem auto;
-  font-size: 1.5rem;
-  text-align: justify;
-}
-
-/* ************************************************************************************************ */
-/* SPECIFIC PAGES */
-/* ************************************************************************************************ */
-
-.service-only-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.service-only-image {
-  width: 95%;
-  text-align: center;
-  font-size: 30px;
-  float: none;
-  padding: 2rem;
   margin: 0 auto;
+  font-size: 1.5rem;
 }
 
-.service-only-image img {
-  margin: auto;
-}
 
-.service-only-text {
-  color: var(--secondaryColor);
-  font-size: 1.25rem;
-  text-align: justify;
-}
 
-@media (min-width: 768px) {
-  .service-only-container {
-    display: block;
-  }
 
-  .service-only-image {
-    width: 50%;
-    float: left;
-    padding: 0 2rem 2rem 0;
-  }
-}
 
-.list {
-  display: inline-block;
-  list-style: square;
-  padding-left: 1rem;
-  margin-left: 1rem;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+  display: none !important;
+}
+
 /*
 * Hide only visually, but have it available for screen readers:
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
@@ -1040,9 +1036,9 @@ section {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -1053,6 +1049,7 @@ section {
    ========================================================================== */
 
 @media print {
+
   *,
   *:before,
   *:after {
@@ -1069,11 +1066,11 @@ section {
   }
 
   a[href]:after {
-    content: " (" attr(href) ")";
+    content: " ("attr(href) ")";
   }
 
   abbr[title]:after {
-    content: " (" attr(title) ")";
+    content: " ("attr(title) ")";
   }
 
   /*
